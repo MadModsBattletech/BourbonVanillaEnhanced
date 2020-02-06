@@ -1,0 +1,15 @@
+{
+    "Name": "DemandingJumps",
+    "Enabled": true,
+
+    "Version": "1.8.1-001R",
+    "Description": "Jumping incurs a penalty to hitting targets depending on attackers weightclass.",
+    "Author": "Mad",
+
+    "DLL": "DemandingJumps.dll",
+
+    "Settings": {
+        "ToHitSelfJumpedSpareAI": true,
+        "ToHitSelfJumpedPenalties": [1, 1, 2, 2]
+    }
+}

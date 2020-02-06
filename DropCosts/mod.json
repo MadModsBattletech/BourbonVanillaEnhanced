@@ -1,0 +1,17 @@
+{
+	"Name": "DropCosts",
+	"Enabled": true,
+
+	"Version": "1.8.1-001R",
+	"Description": "Makes you pay operational costs for mission drops",
+	"Author": "Mad (Inspired by Morphyum)",
+
+	"DLL": "DropCosts.dll",
+
+    "Settings": {
+        "CbillsPerTon": 5000,
+        "FreeTonnageByDifficulty": [ 140, 160, 180, 200, 220, 260, 280, 300, 320, 340 ],
+        "UseFreeTonnagePriorityBonus": true,
+        "FreeTonnagePriorityBonus": 20
+    }
+}

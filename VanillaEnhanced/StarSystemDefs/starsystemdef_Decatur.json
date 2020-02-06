@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Decatur",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_VE_Custom"
+		}
+    ]
+}

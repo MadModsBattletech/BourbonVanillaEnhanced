@@ -1,0 +1,7 @@
+{
+    "Description" : {
+        "Details" : "Adding more Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. This increases the amount of experience gained by MechWarriors aboard the ship. Each MechWarrior with less than 20.000 total experience will gain 30 experience points per day. Mission experience can be fully utilized up to a total of 45.000 points."
+    },
+	"PurchaseCost" : 810000,
+    "AdditionalCost" : 3000
+}

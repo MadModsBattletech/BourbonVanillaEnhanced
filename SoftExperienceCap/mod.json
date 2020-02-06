@@ -1,0 +1,27 @@
+{
+    "Name": "SoftExperienceCap",
+    "Enabled": true,
+
+    "Version": "1.8.1-002R",
+    "Description": "Mission experience only gets rewarded up to a certain limit which is expandable with the right Argo Upgrades. An optional pilot respec with the chosen XP Cap is included. Some possibilities to gain additional XP exist.",
+    "Author": "Mad",
+	
+	"DLL": "SoftExperienceCap.dll",
+
+	"Settings": {
+        "xpCapByArgoState": [
+			25000,
+			35000,
+			45000,
+			65000
+		],
+        "xpMissionMinimum": 0,
+        "xpMissionMaximum": 4000,
+        "xpMissionMechKilled": 100,
+        "xpMissionOtherKilled": 50,
+
+        "ApplyPilotRespec": false,
+        "ForcePilotRespec": false,
+        "CommanderRespec": true
+    }
+}

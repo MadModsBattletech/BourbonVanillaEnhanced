@@ -1,0 +1,7 @@
+{
+	"Description" : {
+		"Name" : "RELIABLE MOVEMENT",
+		"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from all movement actions. The unit can SUSTAIN evasion up to its initiative when moving and sprinting. Regular movement also grants ENTRENCHED.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	}
+}

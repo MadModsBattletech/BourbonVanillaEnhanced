@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Midale",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_VE_Custom"
+		}
+    ]
+}

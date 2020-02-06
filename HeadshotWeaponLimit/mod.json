@@ -1,0 +1,16 @@
+{
+    "Name": "HeadshotWeaponLimit",
+    "Enabled": true,
+
+    "Version": "1.8.1-001R",
+    "Description": "Headshots may only involve one weapon by default. Some new traits of the Gunnery Skill raise that limit.",
+    "Author": "Mad",
+	
+	"Manifest": [
+        { "Type": "AbilityDef", "Path": "AbilityDefs\\" }
+    ],
+
+    "DLL": "HeadshotWeaponLimit.dll",
+
+    "Settings": {}
+}

@@ -1,0 +1,12 @@
+# ModTek
+.modtek/*
+
+# Logs
+*.log
+
+# Saves
+**/.savestate/*
+*.csv
+
+#Configs
+**/modstate.json

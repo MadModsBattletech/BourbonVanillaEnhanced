@@ -1,0 +1,34 @@
+{
+    "PrewarmRequests": [
+        {
+            "ResourceType": "BaseDescriptionDef",
+            "ResourceID": "All",
+            "Priority": "Foreground"
+        },
+        {
+            "ResourceType": "AmmunitionDef",
+            "ResourceID": "All",
+            "Priority": "Background"
+        },
+        {
+            "ResourceType": "AmmunitionBoxDef",
+            "ResourceID": "All",
+            "Priority": "Background"
+        },
+        {
+            "ResourceType": "WeaponDef",
+            "ResourceID": "All",
+            "Priority": "Background"
+        },
+        {
+            "ResourceType": "HeatSinkDef",
+            "ResourceID": "All",
+            "Priority": "Background"
+        },
+        {
+            "ResourceType": "VehicleDef",
+            "ResourceID": "All",
+            "Priority": "Background"
+        }
+    ]
+}

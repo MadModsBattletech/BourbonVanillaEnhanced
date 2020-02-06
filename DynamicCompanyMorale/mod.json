@@ -1,0 +1,20 @@
+{
+	"Name": "DynamicCompanyMorale",
+	"Enabled": true,
+   
+	"Version": "1.8.1-001R",
+	"Description": "Company morale system is made more interesting by introducing temporary morale events and meaningful financial decisions at the start of each quarter.",
+	"Author": "Mad",
+
+	"DLL": "DynamicCompanyMorale.dll",
+
+	"Settings": {
+        "EventMoraleMultiplier": 4,
+        "EventMoraleDurationBase": 15,
+        "EventMoraleDurationNumerator": 240
+    },
+
+	"Manifest": [
+        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" }
+    ]
+}

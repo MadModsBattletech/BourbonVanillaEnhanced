@@ -1,0 +1,14 @@
+{
+    "TargetID": "starsystemdef_Smithon_Flipped",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "Replace",
+			"Value": [
+				"itemCollection_minor_AuriganRestoration",
+				"itemCollection_VE_Campaign_Smithon_Flipped",
+				"itemCollection_shop_mining"
+			]
+		}
+    ]
+}

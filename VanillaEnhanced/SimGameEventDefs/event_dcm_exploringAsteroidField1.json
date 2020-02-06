@@ -1,0 +1,177 @@
+{
+    "Description" : {
+        "Id" : "event_dcm_exploringAsteroidField1",
+        "Name" : "Exploring Asteroid Field",
+        "Details" : "Early in the morning Sumire hammers at your quarters doors excitedly. \"Commander, i found something amazing in the the sensor scans I made yesterday! The research outpost seemed to have a Mechbay and it's within reasonable paremeters that I could recover some valuable stuff that might still be in there!\"\r\n\r\n\"I'd only need the Leopard, a few days of time and some engineers to help me get through to the Bay!\" She adds while standing before you, already in her flight uniform, and eagerly awaiting your decision.",
+        "Icon" : "uixTxrSpot_ArgoParked.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 10,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "dcm_requirement_IMPOSSIBLE"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "ExclusionTags" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Reject Sumires suggestion.",
+                "Details" : "Non-participation option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "After some consideration, you shake your head. \"I am not willing to pay anything more for a nonproven chance of salvage, no matter how tempting it might be.\"\r\n\r\nSumire slowly nods in agreement. \"Of course, Commander. Sorry for waking you up.\" She disappointedly marches back to her quarters.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : []
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Indulge Sumire and send some MechTechs.",
+                "Details" : "[\u00A2200,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 200000,
+                            "valueConstant" : "200000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "You found what?",
+                        "Details" : "Sumire takes a leave in the Leopard to seize whatever may still rest in the old outpost. A few days later, just before you lose your patience there's finally a crackling in the comms. Sumire reports back with an excited tone in her voice. \r\n\r\n\"Well, it's some kind of miracle!,\" she almost yells at you. \"Commander, the Mechbay of the station still had an abandoned Mech just standing around. Unscratched. In almost perfect condition regarding the the collapsed crater all around the bay... We managed to power it up and will return it with us!\"\r\n\r\n\"Just needs some fresh paint,\" Sumire says as she returns to the <i>Argo</i>, apparently very pleased with herself.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+							   "items" : [
+									"event_dcm_exploringAsteroidField_DONE"
+								],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-200000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [			
+								{
+									"Type" : "Mech_AddRoster",
+									"value" : "mechdef_locust_LCT-1Vb_DAMAGED",
+									"valueConstant" : null,
+									"additionalValues" : null
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+						{
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : null
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 7
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "VanillaEnhanced",
+    "Enabled": true,
+    
+    "Version": "1.8.1",
+    "Description": "Enhancements and additions for BTG Core.",
+    "Author": "Mad",
+    
+    "Manifest": [
+        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" },
+        { "Type": "WeaponDef", "Path": "WeaponDefs\\" },
+        { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
+        { "Type": "MechDef", "Path": "MechDefs\\" },
+        { "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs\\" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+        {
+            "Type": "AdvancedJSONMerge",
+            "Path": "StarSystemDefs"
+        }
+    ]
+}

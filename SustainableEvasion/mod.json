@@ -1,0 +1,19 @@
+{
+    "Name": "SustainableEvasion",
+    "Enabled": false,
+
+    "Version": "1.8.1-001b",
+    "Description": "Skilled pilots can sustain some of their evasion while being fired at.",
+    "Author": "Mad",
+	
+	"DLL": "SustainableEvasion.dll",
+
+    "Settings": {
+        "SustainableEvasionLight": 4,
+        "SustainableEvasionMedium": 3,
+        "SustainableEvasionHeavy": 2,
+        "SustainableEvasionAssault": 1,
+        "AcePilotSustainableBonus": 1,
+        "MasterTacticianSustainableBonus": 1
+    }
+}

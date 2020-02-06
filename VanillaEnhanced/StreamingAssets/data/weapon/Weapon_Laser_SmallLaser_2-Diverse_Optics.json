@@ -1,0 +1,6 @@
+{
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1.25,
+    "BonusValueA" : "+ 1 Acc.",
+    "BonusValueB" : "+ 25% Crit."
+}

@@ -1,0 +1,6 @@
+{
+    "Damage" : 24,
+    "CriticalChanceMultiplier" : 1.25,
+    "BonusValueA" : "+ 4 Dmg.",
+    "BonusValueB" : "+ 25% Crit."
+}

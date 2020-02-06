@@ -1,0 +1,102 @@
+{
+    "ToHit":
+    {
+        "ToHitAssault": 0,
+        "ToHitHeavy": 1,
+        "ToHitMedium": 2,
+        "ToHitLight": 3,
+        "ToHitVehicleAssault": 0,
+        "ToHitVehicleHeavy": 1,
+        "ToHitVehicleMedium": 2,
+        "ToHitVehicleLight": 3,
+        
+        "ToHitMinimumRange": 10,    
+        "ToHitCoverObstructed": 4,
+        
+        "SensorLockPipsStripped": 3
+    },
+    "ResolutionConstants":
+    {
+        "AICritChanceBaseMultiplier": 0.5
+    },
+    "Heat": {
+        "ShutdownCausesInjury": true
+    },
+    "MoraleConstants":
+    {
+        "ChangeEnemyDestroyedLight": 10,
+        "ChangeEnemyDestroyedMedium": 10,
+        "ChangeEnemyDestroyedHeavy": 10,
+        "ChangeEnemyDestroyedAssault": 10,
+        
+        "MoraleInitialDefault": 5,
+        "MoraleBaselineGainPerRound": 0,
+        "MoraleBaselineMultiplyByActive": false,
+        "BaselineMultiplyByActiveElites": false,
+        
+        "BaselineAddFromSimGameValues":
+        [
+            0,
+            5,
+            10,
+            15,
+            20
+        ],
+        
+        "BaselineAddMoraleMods": true,
+        "BaselineModsOnlyBiggest": false,
+    
+        "OffensivePushCost": 40,
+        "OffensivePushLowMoraleCost": 55,
+        "OffensivePushHighMoraleCost": 25,
+        "DefensivePushCost": 40,
+        "DefensivePushLowMoraleCost": 55,
+        "DefensivePushHighMoraleCost": 25,
+        
+        "CanAIBeInspired": false
+    },
+    "CombatUIConstants":
+    {
+        "MoraleCostAttackDescription":
+        {
+            "Name": "PRECISION STRIKE COST",
+            "Details": "Cost: 40 Resolve"
+        },
+        "MoraleCostAttackDescriptionLow":
+        {
+            "Name": "PRECISION STRIKE COST LOW",
+            "Details": "Cost: <color=#F04228FF>55 Resolve (this MechWarrior has Low Spirits)</color>"
+        },
+        "MoraleCostAttackDescriptionHigh":
+        {
+            "Name": "PRECISION STRIKE COST HIGH",
+            "Details": "Cost: <color=#85DBF6FF>25 Resolve (this MechWarrior has High Spirits)</color>"
+        },
+        "MoraleCostDefendDescription":
+        {
+            "Name": "VIGILANCE COST",
+            "Details": "Cost: 40 Resolve"
+        },
+        "MoraleCostDefendDescriptionLow":
+        {
+            "Name": "VIGILANCE COST LOW",
+            "Details": "Cost: <color=#F04228FF>55 Resolve (this MechWarrior has Low Spirits)</color>"
+        },
+        "MoraleCostDefendDescriptionHigh":
+        {
+            "Name": "VIGILANCE COST HIGH",
+            "Details": "Cost: <color=#85DBF6FF>25 Resolve (this MechWarrior has High Spirits)</color>"
+        }
+    },
+    "CameraConstants":
+    {
+        "MoveSpeed" : 120.0,
+        "ZoomSpeed" : 2000.0,
+        "RotationSpeed" : 32.0,
+        "RotationSpeedKeyboard" : 32.0,
+        "MinHeightAboveTerrain" : 15.0,
+        "MaxHeightAboveTerrain" : 580.0,
+        "MinAngle" : 5.0,
+        "MaxAngle" : 80.0
+    }
+}

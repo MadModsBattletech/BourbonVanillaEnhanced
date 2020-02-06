@@ -1,0 +1,20 @@
+{
+   "Story": {
+		"LoathedMaxContractDifficulty" : -3,
+		"HatedMaxContractDifficulty" : -2,
+		"DislikedMaxContractDifficulty" : -1,
+		"IndifferentMaxContractDifficulty" : 1,
+		"LikedMaxContractDifficulty" : 2,
+		"FriendlyMaxContractDifficulty" : 3,
+		"HonoredMaxContractDifficulty" : 4
+   },
+   "CareerMode": {
+		"LoathedMaxContractDifficulty" : 1,
+		"HatedMaxContractDifficulty" : 2,
+		"DislikedMaxContractDifficulty" : 3,
+		"IndifferentMaxContractDifficulty" : 6,
+		"LikedMaxContractDifficulty" : 8,
+		"FriendlyMaxContractDifficulty" : 9,
+		"HonoredMaxContractDifficulty" : 10
+   }
+}

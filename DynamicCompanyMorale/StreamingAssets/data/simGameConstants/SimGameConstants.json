@@ -1,0 +1,10 @@
+{
+   "Story" : {
+        "StartingMorale": 25,
+		"SpartanMoraleModifier" : -16,
+		"RestrictedMoraleModifier" : -8,
+		"NormalMoraleModifier" : 0,
+		"GenerousMoraleModifier" : 4,
+		"ExtravagantMoraleModifier" : 8
+   }
+}

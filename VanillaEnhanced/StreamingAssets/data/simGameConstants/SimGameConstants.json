@@ -1,0 +1,12 @@
+{
+	"Story":
+	{
+		"DefaultRoninHiringChance": 0.48
+	},
+   "MechLab" :{
+		"StructureRepairTechPoints" : 0.5,
+		"StructureRepairCost" : 500,
+		"ComponentRepairTechPoints" : 10,
+		"ComponentRepairCost" : 1000
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Name": "EvenTheOdds",
+    "Enabled": true,
+
+    "Version": "1.8.1-001R",
+    "Description": "The OpFor will utilize advanced equipment just as the player does.",
+    "Author": "Mad",
+	
+	"DLL": "EvenTheOdds.dll",
+
+	"Manifest": [
+		{ "Type": "MechDef", "Path": "MechDefs\\" },
+		{ "Type": "PilotDef", "Path": "PilotDefs\\" }
+    ]
+}

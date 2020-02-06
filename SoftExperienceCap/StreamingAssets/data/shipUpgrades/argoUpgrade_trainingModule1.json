@@ -1,0 +1,7 @@
+{
+    "Description" : {
+        "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. Each MechWarrior with less than 10.000 total experience will gain 20 experience points per day. Mission experience can be fully utilized up to a total of 35.000 points."
+    },
+	"PurchaseCost" : 270000,
+    "AdditionalCost" : 1200
+}

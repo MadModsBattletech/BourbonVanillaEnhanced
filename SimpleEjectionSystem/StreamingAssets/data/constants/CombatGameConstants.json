@@ -1,0 +1,7 @@
+{
+    "CombatUIConstants": {
+        "MoraleDefendDescription": {
+            "Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. Your next Initiative is increased by 1 (to a maximum of 5). The pilot's STRESSLEVEL will most likely decrease.\n"
+        }
+    }
+}

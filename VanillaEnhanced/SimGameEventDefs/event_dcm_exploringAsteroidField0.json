@@ -1,0 +1,265 @@
+{
+    "Description" : {
+        "Id" : "event_dcm_exploringAsteroidField0",
+        "Name" : "Exploring Asteroid Field",
+        "Details" : "After what felt like some sudden brakes and turns Sumire catches you with her eyes gleaming. \"I just maneuvered through an asteroid fields when sensors catched something on one of the bigger ones. Looks like there are some kinds of man-made structures on the surface of the asteroid but i'd really like to have a closer look... What do you think?\"",
+        "Icon" : "uixTxrSpot_ArgoParked.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 50,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "argo_mechBay1"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "event_dcm_exploringAsteroidField_DONE"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+			{
+                "obj" : "Funds",
+                "op" : "GreaterThan",
+                "val" : 250000,
+                "valueConstant" : "250000"
+            },
+            {
+                "obj" : "MechTechSkill",
+                "op" : "GreaterThanOrEqual",
+                "val" : 2,
+                "valueConstant" : "2"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Take no risks.",
+                "Details" : "Non-participation option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "After some consideration, you shake your head. \"I want to focus on the contracts available here in {TGT_SYSTEM.Name}. We're not here to sightsee, no matter how lucrative it might be.\"\r\n\r\nSumire slowly nods in agreement. \"Of course, Commander. Perhaps when we've worn out our welcome here, we can spare some time before departing the system.\" She stiffly marches back to her post.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : []
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Scan the asteroid from orbit.",
+                "Details" : "[\u00A210,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 10000,
+                            "valueConstant" : "10000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "The data you gather seems uninteresting",
+                        "Details" : "Sumire and her staff scan the asteroid, and after a few hours she delivers a report.\r\n\r\n\"Commander, we didn't detect anything more than broken stone and metal. My apologies for wasting the <i>Argo</i>'s time, but I thought it was worth a shot.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-10000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_2",
+                "Name" : "Send Sumire in the Leopard.",
+                "Details" : "[\u00A250,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 50000,
+                            "valueConstant" : "50000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_0",
+                        "Name" : "Sumire stumbles upon an ancient outpost",
+                        "Details" : "Sumire sets out in the Leopard for what is supposed to be a low altitude fly-by of the asteroid. When she finally approaches the aspired spot on the back side of the asteroid communications fail.\r\n\r\nStaring at the comms, you spend a stress-filled twenty minutes wondering if you're going to have to shuttle down a rescue team of MechWarriors to search for your navigation officer. But, after another 5 minutes, Sumire reports back with an excited tone in her voice. \r\n\r\n\"Well, you won't believe it,\" she says when she returns to the <i>Argo</i>. Her flight uniform is caked with half an excavation's worth of dust. \"Commander, there seems to be an abandoned SLDF research station that's half-buried in a crater of the asteroid.\"\r\n\r\n\"I need some time to analyse the data I collected,\" Sumire says as she links off toward the showers. \"But I am sure there's a symposium of historians willing to pay a tidy little sum for it,\" she adds mischievously as she disappears behind her quarters door, \"It might just take while...\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+					"RequirementList" : [
+						{
+							"Scope" : "Company",
+							"RequirementTags" : {
+								"items" : null,
+								"tagSetSourceFile" : ""
+							},
+							"ExclusionTags" : {
+								"items" : null,
+								"tagSetSourceFile" : ""
+							}
+						}
+					],
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+							"Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-50000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : null,
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "event_dcm_exploringAsteroidField1",
+                                    "MinDaysWait" : 0,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}
