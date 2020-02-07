@@ -16,12 +16,6 @@
 * A workaround for vanilla bug of randomly setting ExpenseLevel at GameLoad is included
   * Please note that this workaround needs a custom SaveState found in ModDirectory
   * Fix is applied AFTER the first NewQuarterBegin, existing saves cannot be fixed
-* Hardcoded tooltip descriptions for the MoraleBar are also fixed
-  * They now show the correct values from CombatGameConstants
-
-## Known issues
-* Sometimes the color on the total current morale value in Captains Quarters only updates on the second call of RefreshData. It is a minor issue but still...
-* ~~A combination of existing Morale Stat AND a Tag-Change (rare, i.e. the "Cat"-Event) will display the Tag as temporary on the event result screen...~~
 
 ## Thanks
 * Zathoth
