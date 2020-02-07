@@ -6,8 +6,11 @@
 
 # Saves
 **/.savestate/*
-*.csv
 
 #Configs
 **/modstate.json
 *.config
+
+#Helper
+*.bat
+*.zip

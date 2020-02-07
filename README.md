@@ -2,17 +2,13 @@
 
 [Battletech ModCollection][ModTek] A custom flavor of HBS Battletech. Various little changes and additions to make the game more diverse, harder and more fun. At least for me.  
 Unlike some other bigger modpacks, this little mod collection is also tailored for the base campaign. There are many small fixes and additions that only concern the campaign. But Career mode is fully supported too.
-All included mods are maintained by myself (including forks of some popular mods), the only external dependancy is ModTek to actually patch the game and enable the mods.
+All included mods are maintained by myself (including forks of some popular mods), the only external dependency is ModTek to actually patch the game and enable the mods.
 
 
 
 ## Changes and reasons
 I mostly like the base game as it is but while playing it for many many hours some things emerged which in my opinion were illogical, boring or unbalanced. I'll list some of these things for you to better decide if this modpack is for you...  
 
-* Stability meta is built around missiles while Autocannons fall off in this regard, especially with the higher quality gear in late game
-	* This is moderately adjusted with missiles beeing a bit weaker and AC's better at dealing stability damage
-* Higher quality gear, especially some weapons are overpowered
-	* This is carefully reduced to make them still worthwhile but less godmode
 * The OpFor doesn't utilize higher quality gear. Why would only the players company have access to high quality gear? And where does that gear come from during salvage?
 	* The OpFor will field Mechs with high quality gear now, depending on progress in Campaign or Career
 * Vigilance and Precision Strike are overpowered
@@ -21,10 +17,10 @@ I mostly like the base game as it is but while playing it for many many hours so
 * Jumping combined with backstabbing is lacking risk.
 	* Introduced a ToHit-Penalty and stability damage for jumping. At least it comes with a downside now.
 * Elite pilots (10/10/10/10) make the gameplay shallow
-	* It's nearly impossible to reach level 10 in all skills now, your decisions for where to put points are more important now.
+	* It's nearly impossible to reach level 10 in all skills, your decisions for where to put points are more important now.
 	* Individual performance of pilots is taken into consideration when XP are gained
 * Company morale changes are mostly meaningless as are the corresponding Argo Upgrades. You'll quickly end up at 45-50 anyhow.
-	* There's a reset to (25 + Upgrade boni) at each quarter now (35max)
+	* There's a reset to (25 + Upgrades) at each quarter now (35max)
 	* Events will increase or decrease your company morale for a limited time (but with much greater impact)
 * You can overrun low skull missions with Assaults and no risk if you want to
 	* Exceeding a certain tonnage limit is really expensive now and fosters a finances vs. risk decision
@@ -32,11 +28,15 @@ I mostly like the base game as it is but while playing it for many many hours so
 	* Stress levels and ejection chances for enemies as allies are in place now
 * Juggernaut (and Coolant Vent) suck
 	* Coolant Vent is gone and Juggernauts will pack their punch
+* Stability meta is built around missiles while Autocannons fall off in this regard, especially with the higher quality gear in late game
+	* This is moderately adjusted with missiles beeing a bit weaker and AC's better at dealing stability damage
+* Higher quality gear, especially some weapons are overpowered
+	* This is carefully reduced to make them still worthwhile but less godmode
 	
 In addition to the above there are many small things in place which will most likely enhance the experience
 
 * You can choose a png for your pilots avatar (Thx to morphyum)
-* Dekker, Behemoth, Medusa and Glitch look really good now (Thx kohour)
+* Dekker, Behemoth, Medusa and Glitch look really good now (Thx to kohour)
 * The Argo holds a nice surprise
 * Shops have some regular gear
 * Some more opportunities to get your hands on SLDF Mechs
@@ -58,7 +58,7 @@ Some mods are currently disabled. There are reasons for that.
 ## Thanks
 * HBS
 * pardeike
-* All modders over at the Battletech & MW5 Modding discord and at the Battletech Modders' Collective
+* All modders over at the Battletech & MW5 Modding discord and at the Battletech Modders' Collective!
 
 
 
