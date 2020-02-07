@@ -46,12 +46,28 @@ In addition to the above there are many small things in place which will most li
 	
 For a more detailed look at the various gameplay changes/fixes please have a look at the corresponding readmes of the included mods.  
 If you only like a part of this stuff feel free to browse my github and pick only some mods you like. See list at the end of this file.
-	
+
+
+
+## Installation
+* Extract into /BATTLETECH/Mods/ (Create directory if it doesn't exist)
+	* If you already patched your game and/or have a newer version of ModTek available you can choose to *not* overwrite ModTek
+* Execute "/BATTLETECH/Mods/ModTek/ModTekInjector.exe" (to patch game assembly and enable mods)
+	* If you haven't already...
+* Run game
+
 	
 
 ## Adjustments
 Many mods have settings to adjust them to your liking. Feel free to do that but be aware that this can screw up balance.  
 Some mods are currently disabled. There are reasons for that.
+
+
+
+## Disclaimer
+Use at your own risk. I am willing to help if problems arise but please keep in mind that i am one person alone and doing this in my free time.  
+It's perfectly possible to drop this modpack onto a running game according to my tests.  
+Saves made while this modpack was active will most likely break without it present.
 
 
 

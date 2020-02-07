@@ -1,6 +1,6 @@
 # EvenTheOdds
 
-[Battletech Mod][ModTek][BETA] The OpFor will utilize advanced equipment just as the player does.
+[Battletech Mod][ModTek] The OpFor will utilize advanced equipment just as the player does.
 
 ## Gameplay changes
 
