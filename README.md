@@ -1,18 +1,66 @@
 # Bourbon - Vanilla Enhanced
 
-[Battletech ModCollection][ModTek] A custom flavor of HBS Battletech. Various little changes and additions to make the game more diverse, harder and more fun. At least for me. 
+[Battletech ModCollection][ModTek] A custom flavor of HBS Battletech. Various little changes and additions to make the game more diverse, harder and more fun. At least for me.  
+Unlike some other bigger modpacks, this little mod collection is also tailored for the base campaign. There are many small fixes and additions that only concern the campaign. But Career mode is fully supported too.
+All included mods are maintained by myself (including forks of some popular mods), the only external dependancy is ModTek to actually patch the game and enable the mods.
 
-## Mods included
-* BuffMasterTactician
 
 
-## Gameplay changes
-* tdb
+## Changes and reasons
+I mostly like the base game as it is but while playing it for many many hours some things emerged which in my opinion were illogical, boring or unbalanced. I'll list some of these things for you to better decide if this modpack is for you...  
+
+* Stability meta is built around missiles while Autocannons fall off in this regard, especially with the higher quality gear in late game
+	* This is moderately adjusted with missiles beeing a bit weaker and AC's better at dealing stability damage
+* Higher quality gear, especially some weapons are overpowered
+	* This is carefully reduced to make them still worthwhile but less godmode
+* The OpFor doesn't utilize higher quality gear. Why would only the players company have access to high quality gear? And where does that gear come from during salvage?
+	* The OpFor will field Mechs with high quality gear now, depending on progress in Campaign or Career
+* Vigilance and Precision Strike are overpowered
+	* Resolve generation is toned down, the abilites will cost more resolve to be used
+	* Headshots are limited to a subset of the available weapons
+* Jumping combined with backstabbing is lacking risk.
+	* Introduced a ToHit-Penalty and stability damage for jumping. At least it comes with a downside now.
+* Elite pilots (10/10/10/10) make the gameplay shallow
+	* It's nearly impossible to reach level 10 in all skills now, your decisions for where to put points are more important now.
+	* Individual performance of pilots is taken into consideration when XP are gained
+* Company morale changes are mostly meaningless as are the corresponding Argo Upgrades. You'll quickly end up at 45-50 anyhow.
+	* There's a reset to (25 + Upgrade boni) at each quarter now (35max)
+	* Events will increase or decrease your company morale for a limited time (but with much greater impact)
+* You can overrun low skull missions with Assaults and no risk if you want to
+	* Exceeding a certain tonnage limit is really expensive now and fosters a finances vs. risk decision
+* Ejections and a related "stress-meta" are non-existant
+	* Stress levels and ejection chances for enemies as allies are in place now
+* Juggernaut (and Coolant Vent) suck
+	* Coolant Vent is gone and Juggernauts will pack their punch
+	
+In addition to the above there are many small things in place which will most likely enhance the experience
+
+* You can choose a png for your pilots avatar (Thx to morphyum)
+* Dekker, Behemoth, Medusa and Glitch look really good now (Thx kohour)
+* The Argo holds a nice surprise
+* Shops have some regular gear
+* Some more opportunities to get your hands on SLDF Mechs
+* The intros are skipped (Thx to mpstark)
+* DFA's remove entrenched
+* And many more small fixes and additions
+	
+For a more detailed look at the various gameplay changes/fixes please have a look at the corresponding readmes of the included mods.  
+If you only like a part of this stuff feel free to browse my github and pick only some mods you like. See list at the end of this file.
+	
+	
+
+## Adjustments
+Many mods have settings to adjust them to your liking. Feel free to do that but be aware that this can screw up balance.  
+Some mods are currently disabled. There are reasons for that.
+
+
 
 ## Thanks
 * HBS
 * pardeike
 * All modders over at the Battletech & MW5 Modding discord and at the Battletech Modders' Collective
+
+
 
 ## Appendices
 
@@ -40,3 +88,28 @@ HeavyMetalEnhanced
 UrbanWarfareEnhanced  
 VanillaEnhanced  
 [Worthwhile Knockdowns](./WorthwhileKnockdowns/README.md)  
+
+### Mods included
+https://github.com/mad2342/BuffMasterTactician/releases   
+https://github.com/mad2342/CommanderPortraitLoader/releases   
+https://github.com/mad2342/DemandingJumps/releases  
+https://github.com/mad2342/DontShootTheDead/releases   
+https://github.com/mad2342/DropCosts/releases  
+https://github.com/mad2342/DynamicCompanyMorale/releases   
+https://github.com/mad2342/EvenTheOdds/releases  
+https://github.com/mad2342/FellOfACargoShip/releases  
+https://github.com/mad2342/FlashpointEnhanced  
+https://github.com/mad2342/HeadshotWeaponLimit/releases  
+https://github.com/mad2342/HeavyMetalEnhanced  
+https://github.com/mad2342/LittleThings/releases  
+https://github.com/mad2342/MadLabs/releases  
+https://github.com/mad2342/MeleeMover/releases  
+https://github.com/mad2342/MightyChargingJuggernaut/releases  
+https://github.com/mad2342/RandomCampaignStart/releases  
+https://github.com/mad2342/SimpleEjectionSystem/releases  
+https://github.com/mad2342/SkipIntro/releases  
+https://github.com/mad2342/SoftExperienceCap/releases  
+https://github.com/mad2342/SustainableEvasion/releases 
+https://github.com/mad2342/UrbanWarfareEnhanced   
+https://github.com/mad2342/VanillaEnhanced  
+https://github.com/mad2342/WorthwhileKnockdowns/releases  
