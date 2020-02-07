@@ -6,7 +6,7 @@ All included mods are maintained by myself (including forks of some popular mods
 
 
 
-## Changes and reasons
+## What And Why
 I mostly like the base game as it is but while playing it for many many hours some things emerged which in my opinion were illogical, boring or unbalanced. I'll list some of these things for you to better decide if this modpack is for you...  
 
 * The OpFor doesn't utilize higher quality gear. Why would only the players company have access to high quality gear? And where does that gear come from during salvage?
@@ -55,6 +55,12 @@ If you only like a part of this stuff feel free to browse my github and pick onl
 * Execute "/BATTLETECH/Mods/ModTek/ModTekInjector.exe" (to patch game assembly and enable mods)
 	* If you haven't already...
 * Run game
+
+
+
+## Requirements
+Tested against BTG 1.8.1 with all DLCs. Most likely it is possible to run this modpack without some of the DLCs present but i did not (and will not) verify this.  
+I will appreciate feedback regarding this topic though.
 
 	
 
