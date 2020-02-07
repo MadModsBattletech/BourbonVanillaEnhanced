@@ -37,6 +37,7 @@ In addition to the above there are many small things in place which will most li
 
 * You can choose a png for your pilots avatar (Thx to morphyum)
 * Dekker, Behemoth, Medusa and Glitch look really good now (Thx to kohour)
+* MechParts cost is adjusted depending on how many of them you'd need to assemble a Mech
 * The Argo holds a nice surprise
 * Shops have some regular gear
 * Some more opportunities to get your hands on SLDF Mechs
