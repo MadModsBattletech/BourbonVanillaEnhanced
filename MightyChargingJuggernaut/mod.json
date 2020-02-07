@@ -1,8 +1,8 @@
 {
     "Name": "MightyChargingJuggernaut",
-    "Enabled": false,
+    "Enabled": true,
 
-    "Version": "1.8.1-003b",
+    "Version": "1.8.1-004R",
     "Description": "Coolant Vent is replaced by beloved Juggernaut. Juggernauts can CHARGE into other mechs at sprint range and gain GUARDED state after making regular melee attacks.",
     "Author": "Mad",
 	

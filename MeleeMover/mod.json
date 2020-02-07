@@ -2,7 +2,7 @@
     "Name": "MeleeMover",
     "Enabled": true,
 
-    "Version": "1.8.1-001R",
+    "Version": "1.8.1-002R",
     "Description": "Allows your Mechs to move to another position while being engaged in melee, just like the AI does.",
     "Author": "Mad (Forked from Morphyum)",
 	

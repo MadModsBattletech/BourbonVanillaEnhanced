@@ -2,7 +2,7 @@
     "Name": "SoftExperienceCap",
     "Enabled": true,
 
-    "Version": "1.8.1-002R",
+    "Version": "1.8.1-003R",
     "Description": "Mission experience only gets rewarded up to a certain limit which is expandable with the right Argo Upgrades. An optional pilot respec with the chosen XP Cap is included. Some possibilities to gain additional XP exist.",
     "Author": "Mad",
 	
