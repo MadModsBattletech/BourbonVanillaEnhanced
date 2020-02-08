@@ -1,8 +1,11 @@
 # Bourbon - Vanilla Enhanced
 
 [Battletech ModCollection][ModTek] A custom flavor of HBS Battletech. Various little changes and additions to make the game more diverse, harder and more fun. At least for me.  
-Unlike some other bigger modpacks, this little mod collection is also tailored for the base campaign. There are many small fixes and additions that only concern the campaign. But Career mode is fully supported too.
-All included mods are maintained by myself (including forks of some popular mods), the only external dependency is ModTek to actually patch the game and enable the mods.
+Unlike some other bigger modpacks, this little mod collection is also tailored for the base campaign. There are many small fixes and additions that only concern the campaign. Career mode is fully supported too. 
+The scope of Bourbon is to carefully expand on the Core gameplay, make it more challenging and fix some issues i had with the game but not to overhaul or overwhelm it with new content. 
+All included mods are maintained by myself (including forks of some popular mods), the only external dependency is ModTek to actually patch the game and enable the mods.  
+I always tried to utilize the UI to describe/show important changes within tooltips or combat floaties or similar so players don't need to read instructions outside the game to understand what's happening.
+Probably the best experience is to just drop this collection in and play the game!
 
 
 
