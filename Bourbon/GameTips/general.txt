@@ -1,0 +1,13 @@
+Jumping incurs a penalty to hitting targets depending on attackers weight class and adds one bar of stability damage.
+Master Tacticians will raise your teams resolve by 5 at the start of every round.
+Clients will only compensate for the anticipated tonnage needed to fulfill the contract. If you want to reduce risk further, you'll have to pay for it yourself.
+Your chosen expenditures for a month will strongly influence your company's morale and resolve in combat.
+Enemy 'Mechs with high quality gear will most likely be piloted by veteran mechwarriors. Be alert!
+Headshots against moving targets may only involve one weapon by default. Investing in the gunnery skill will raise that limit.
+Right-click on the portrait of your MechWarriors to have a look at their general condition.
+Successful "Death from Above" attacks will remove ENTRENCHED from a target 'Mech.
+Juggernauts can CHARGE into other mechs at sprint range and gain GUARDED state after making regular melee attacks.
+Watch out for a MechWarrior's stress level! Use the Inspiration ability "Vigilance" to reassure your pilots.
+The Argo's training modules will help your MechWarriors utilize their combat experience to a greater extent.
+Exceptional prowess in Battle will result in bonus experience for your MechWarriors.
+A knocked-down 'Mech is very limited in its movement options the next turn. Stay on your feet!

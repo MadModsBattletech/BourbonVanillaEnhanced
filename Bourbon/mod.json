@@ -1,0 +1,12 @@
+{
+    "Name": "Bourbon",
+    "Enabled": true,
+    
+    "Version": "1.8.1",
+    "Description": "Adds GameTips for Bourbon - Vanilla Enhanced.",
+    "Author": "Mad",
+    
+    "Manifest": [
+        { "Type": "GameTip", "Path": "GameTips\\", "ShouldAppendText": true }
+    ]
+}
