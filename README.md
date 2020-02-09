@@ -139,3 +139,18 @@ https://github.com/mad2342/SustainableEvasion/releases
 https://github.com/mad2342/UrbanWarfareEnhanced   
 https://github.com/mad2342/VanillaEnhanced  
 https://github.com/mad2342/WorthwhileKnockdowns/releases  
+
+### Credits
+Some of the contained mods are based upon the work of others (technically speaking, they were or are forked from another ones repo). These are:
+
+* CommanderPortraitLoader (Forked from BattletechModders/CommanderPortraitLoader)
+	* Thx to Morphyum for the initial mod and wmtorode, CptMoore, CMiSSioN for later contributions
+* SkipIntro (Forked from BattletechModders/SkipIntro)
+	* Thx to Mpstark
+* RandomCampaignStart (Forked from Mpstark/RandomCampaignStart)
+	* Thx to Mpstark and Cydonia07
+* MeleeMover (Forked from Morphyum/MeleeMover)
+	* Thx to Morphyum
+	
+And a very special thank you to all the contributors of ModTek (https://github.com/BattletechModders/ModTek) to make this whole stuff possible in the first place:  
+Mpstark, CptMoore, janxious, CMiSSioN, m22spencer, alexbartlow, Tyler-IN, ffaristocrat, Morphyum
