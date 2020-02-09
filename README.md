@@ -54,6 +54,8 @@ If you only like a part of this stuff feel free to browse my github and pick onl
 
 
 ## Installation
+This modpack requires ModTek which *is included* in the download for convenience. This leaves the following few things to be done to install:
+
 * Extract into /BATTLETECH/Mods/ (Create directory if it doesn't exist)
 	* If you already patched your game and/or have a newer version of ModTek available you can choose to *not* overwrite ModTek
 * Execute "/BATTLETECH/Mods/ModTek/ModTekInjector.exe" (to patch game assembly and enable mods)
@@ -78,6 +80,7 @@ Some mods are currently disabled. There are reasons for that.
 Use at your own risk. I am willing to help if problems arise but please keep in mind that i am one person alone and doing this in my free time.  
 It's perfectly possible to drop this modpack onto a running game according to my tests.  
 Saves made while this modpack was active will most likely break without it present.
+You can have more mods on top of this as to your liking, but please keep in mind that there could arise conflicts and balance problems.
 
 
 
