@@ -2,7 +2,7 @@
     "Name": "LittleThings",
     "Enabled": true,
 
-    "Version": "1.8.1-004R",
+    "Version": "1.8.1-008R",
     "Description": "Fix some little annoyances and change minor things.",
     "Author": "Mad",
 
@@ -10,7 +10,9 @@
 
     "Settings": {
         "MoraleFixes": true,
-        "UIFixes": true,
+        "FixUIInventoryItems": true,
+        "FixUIHeraldryScreen": true,
+        "FixUIEquipmentTooltips": true,
         "DisableTutorials": true,
         "DisableSimGameCharHighlights": true,
         "InjuryFixes": false,
@@ -18,6 +20,10 @@
         "FixIconOverlayAAR": true,
         "FixCombatHUDPortraitRightClick": true,
         "FixCoilPreviews": true,
+
+        "FixGalaxyDeleteSaves": true,
+        "GalaxySaveGameRelativeRootPath": "AppData\\Local\\GOG.com\\Galaxy\\Applications\\50593543263669699\\Storage\\Shared\\Files\\",
+        "GalaxySaveGameAbsolutePathOverride": "",
 
         "ShowEnemyInjuries": true,
         "ShowAbilityTooltips": true,
