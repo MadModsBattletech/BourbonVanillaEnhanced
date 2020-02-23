@@ -8,7 +8,7 @@
         "UIName": "Shadow Hawk",
         "Id": "chassisdef_shadowhawk_SHD-2Hb",
         "Name": "Shadow Hawk",
-        "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with a more powerful AC/10, two SRM2s and two Medium Pulse Lasers, cooled with additional double-strength heatsinks.",
+        "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two SRM2s and two Medium Pulse Lasers, cooled by double-strength heatsinks.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -20,7 +20,7 @@
     "InitialTonnage": 20,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 80,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -214,5 +214,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & General Assault",
-    "YangsThoughts": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with a more powerful AC/10, two SRM2s and two Medium Pulse Lasers, cooled with additional double-strength heatsinks."
+    "YangsThoughts": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two SRM2s and two Medium Pulse Lasers, cooled by double-strength heatsinks."
 }

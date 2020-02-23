@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_archerBase-001",
     "PrefabBase": "archer",
     "Tonnage": 70,
-    "InitialTonnage": 24,
+    "InitialTonnage": 27,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 170,
     "StabilityDefenses": [

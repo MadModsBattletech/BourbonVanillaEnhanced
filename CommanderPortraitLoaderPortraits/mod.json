@@ -1,0 +1,17 @@
+{
+    "Name": "CommanderPortraitLoaderPortraits",
+    "Enabled": true,
+
+    "Version": "1.9.0-001b",
+    "Description": "Container for the generated PortraitSettings of CommanderPortraitLoader",
+    "Author": "Mad",
+	
+	"DependsOn": [ "CommanderPortraitLoader" ],
+
+	"Manifest":
+	[
+        {
+            "Type": "PortraitSettings", "Path": "PortraitSettings"
+        }
+    ]
+}

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_annihilatorBase-001",
     "PrefabBase": "annihilator",
     "Tonnage": 100,
-    "InitialTonnage": 15.5,
+    "InitialTonnage": 16.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 0,
     "MaxJumpjets": 2,
