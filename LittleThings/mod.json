@@ -2,7 +2,7 @@
     "Name": "LittleThings",
     "Enabled": true,
 
-    "Version": "1.8.1-008R",
+    "Version": "1.9.0-001R",
     "Description": "Fix some little annoyances and change minor things.",
     "Author": "Mad",
 
@@ -20,6 +20,7 @@
         "FixIconOverlayAAR": false,
         "FixCombatHUDPortraitRightClick": true,
         "FixCoilPreviews": true,
+        "FixRepairNotification": true,
 
         "FixGalaxyDeleteSaves": false,
         "GalaxySaveGameRelativeRootPath": "AppData\\Local\\GOG.com\\Galaxy\\Applications\\50593543263669699\\Storage\\Shared\\Files\\",
