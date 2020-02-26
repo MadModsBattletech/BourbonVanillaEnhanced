@@ -101,7 +101,7 @@ You can have more mods on top of this as to your liking, but please keep in mind
 [Drop Costs](./DropCosts/README.md)  
 [Dynamic Company Morale](./DynamicCompanyMorale/README.md)  
 [Even The Odds](./EvenTheOdds/README.md)  
-[Fell Of A Cargo Ship](./FellOfACargoShip/README.md)  
+[Fell Off A Cargo Ship](./FellOffACargoShip/README.md)  
 FlashpointEnhanced  
 [Headshot Weapon Limit](./HeadshotWeaponLimit/README.md)  
 HeavyMetalEnhanced  
@@ -126,7 +126,7 @@ https://github.com/mad2342/DontShootTheDead/releases
 https://github.com/mad2342/DropCosts/releases  
 https://github.com/mad2342/DynamicCompanyMorale/releases   
 https://github.com/mad2342/EvenTheOdds/releases  
-https://github.com/mad2342/FellOfACargoShip/releases  
+https://github.com/mad2342/FellOffACargoShip/releases  
 https://github.com/mad2342/FlashpointEnhanced  
 https://github.com/mad2342/HeadshotWeaponLimit/releases  
 https://github.com/mad2342/HeavyMetalEnhanced  

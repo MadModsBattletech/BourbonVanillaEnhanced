@@ -60,8 +60,9 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 0,
-                "clearedWhenAttacked" : false
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false,
+                "activeTrackedEffect" : true
             },
             "targetingData" : {
                 "effectTriggerType" : "OnHit",
@@ -77,7 +78,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TAG-BallisticDmgBonus15",
+                "Id" : "StatusEffect-TAG-BallisticDmgBonus",
                 "Name" : "TAG MARKED",
                 "Details" : "This unit will take [AMT] more damage from Ballistic and Energy attacks.",
                 "Icon" : "uixSvgIcon_statusMarked"
@@ -104,8 +105,9 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 0,
-                "clearedWhenAttacked" : false
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false,
+                "activeTrackedEffect" : true
             },
             "targetingData" : {
                 "effectTriggerType" : "OnHit",
@@ -118,11 +120,11 @@
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
                 "showInStatusPanel" : false,
-				"hideApplicationFloatie" : true
+                "hideApplicationFloatie" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TAG-EnergyDmgBonus15",
+                "Id" : "StatusEffect-TAG-EnergyDmgBonus",
                 "Name" : "TAG MARKED",
                 "Details" : "This unit will take [AMT] more damage from Ballistic and Energy attacks.",
                 "Icon" : "uixSvgIcon_statusMarked"
@@ -142,17 +144,18 @@
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
         },
-		{
-			"durationData" : {
+        {
+            "durationData" : {
                 "duration" : 2,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 0,
-                "clearedWhenAttacked" : false
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false,
+                "activeTrackedEffect" : true
             },
-			"targetingData" : {
+            "targetingData" : {
                 "effectTriggerType" : "OnHit",
                 "triggerLimit" : 0,
                 "extendDurationOnTrigger" : 0,
@@ -163,9 +166,9 @@
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
                 "showInStatusPanel" : false,
-				"hideApplicationFloatie" : true
+                "hideApplicationFloatie" : true
             },
-			"effectType" : "VFXEffect",
+            "effectType" : "VFXEffect",
             "Description" : {
                 "Id" : "StatusEffect-TAG-IndicatorVFX",
                 "Name" : "TAG MARKED",
@@ -173,16 +176,16 @@
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"
             },
             "nature" : "Debuff",
-			"vfxData" : {
-				"vfxName" : "vfxPrfPrtl_TAGmarker_loop",
-				"attachToImpactPoint" : true,
-				"location" : -1,
-				"isAttached" : true,
-				"facesAttacker" : false,
-				"isOneShot" : false,
-				"duration" : -1.0		
-			}
-		}
+            "vfxData" : {
+                "vfxName" : "vfxPrfPrtl_TAGmarker_loop",
+                "attachToImpactPoint" : true,
+                "location" : -1,
+                "isAttached" : true,
+                "facesAttacker" : false,
+                "isOneShot" : false,
+                "duration" : -1.0       
+            }
+        }
     ],
     "ComponentTags" : {
         "items" : [
