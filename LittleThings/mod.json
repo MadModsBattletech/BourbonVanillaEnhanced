@@ -33,7 +33,8 @@
         "EnableStockMechReferenceViaMechDefDescriptionModel": true,
         "EnableChassisHeatsinks": false,
 
-        "EnableFreeCam": true,
+        "EnableTotalCameraControl": true,
+        "EnableSpawnProtection": true,
 
         "AdjustMechPartCost": true,
         "AdjustMechPartCostMultiplier": 0.7,
