@@ -1,0 +1,27 @@
+{
+    "Name": "CameraUnchained",
+    "Enabled": true,
+
+    "Version": "1.9.0-001R",
+    "Description": "Suppress forced camera movements. Simple focus on relevant events without blocking players ability to control camera.",
+    "Author": "Mad",
+	
+	"DLL": "CameraUnchained.dll",
+
+    "Settings": {
+        "EventWhitelist": [
+            "BattleTech.ArtilleryObjectiveSequence.SetState",
+            "BattleTech.ArtillerySequence.SetState",
+            "BattleTech.MechMortarSequence.SetState",
+            "BattleTech.MissionEndSequence.ShowCamera",
+            "BattleTech.MultiSequence.FocusCamera",
+            "BattleTech.StrafeSequence.SetState"
+        ],
+        "FocusOnStandingUp": true,
+        "FocusOnPoweringUp": true,
+        "FocusOnMovement": true,
+        "FocusOnSensorLock": true,
+        "FocusOnMeleeTarget": true,
+        "FocusOnRangedTarget": true
+    }
+}

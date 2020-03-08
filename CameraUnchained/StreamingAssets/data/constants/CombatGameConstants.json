@@ -1,0 +1,11 @@
+{
+    "CameraConstants": {
+        "MinDistToFocalPoint": 100.0,
+        "MinHeightAboveTerrain": 25.0,
+        "MaxHeightAboveTerrain": 650.0,
+        "MinAngle": 5.0,
+        "MaxAngle": 85.0,
+        "DefaultAngle": 35.0,
+        "DefaultFOV": 40.0
+    }
+}
