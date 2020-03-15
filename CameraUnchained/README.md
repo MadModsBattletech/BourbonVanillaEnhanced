@@ -10,7 +10,8 @@ Even with all camera settings disabled the game still takes away control of came
 - Death
 - Melee
 
-This mod prevents that and will (by default, configurable) replace these forced camera movements with a simple focus on the relevant position (without disabling control or randomly changing rotation).
+This mod prevents that and will (by default, configurable) replace these forced camera movements with a simple focus on the relevant position (without disabling control or randomly changing rotation).  
+Some less intrusive camera events are whitelisted (by default, configurable), such as the initial objective focus, artillery cams and the mission ending ride.
 
 ## Thanks
 * pardeike

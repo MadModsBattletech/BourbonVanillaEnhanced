@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Dunianshire",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_UWE_Custom"
+		}
+    ]
+}

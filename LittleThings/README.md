@@ -19,6 +19,10 @@
 - Works around the annoying "Undeletable Saves" Bug for GOG Galaxy users (obsolete with BTG 1.9.0)
     - Builds path from users homedir + "GalaxySaveGameRelativeRootPath" and deletes files there if requested to do so
     - Option to override with a full, absolute path to savegamedir added
+- Fix/Expand Stat Tooltip for Firepower
+    - Shows correct values for stability damage now
+    - Respects special gear such as Optimized Capacitors and Ballistic Siege Compensators
+    - Shows breakdown of damage depending on weapon type (Energy, Ballistic, Missile, Support)
 
 ## Changes/Additions
 - Enable Reserving for AI
@@ -35,6 +39,9 @@
 - Open up the possibility of using "MechDef.Description.Model" to reference the base mech (aka stock)
     - Useful for custom MechDefs with broken/changed inventory/locations to properly show the stock loadout in MechLab
 - Shows number of injuries for targets when injured (!health, because you can't know it)
+- Suppress Mechwarrior training notification if number of trainable pilots is below a certain limit
+    - Vanilla: 2
+    - LittleThings: Configurable in settings (default: 4)
 
 ## Note
 - All fixes and features can be turned on/off via settings

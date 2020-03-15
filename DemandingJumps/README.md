@@ -1,6 +1,6 @@
 # DemandingJumps
 
-[Battletech Mod][ModTek] Jumping incurs a penalty to hitting targets depending on attackers weight class AND adds one bar of stability damage.
+[Battletech Mod][ModTek] Jumping incurs a penalty to hitting targets depending on attackers weight class (configurable) AND adds one bar of stability damage.
 
 ## Gameplay changes
 * Introduces a configurable penalty to hit for jumping attackers

@@ -8,6 +8,8 @@
 - Juggernauts can CHARGE into other mechs (and ONLY mechs) at sprint range.
 	- This will be handled like a sprint regarding instability reduction (none)
 	- It will cause additional stability damage to the target
+    - It will cause slight stability damage for the attacker on a successful hit
+    - Cannot charge prone targets
 	- Movement to target will not decelerate at the end
 	- It will ALWAYS use the "Charge" melee animation
 - Juggernauts gain GUARDED state after making regular melee attacks.

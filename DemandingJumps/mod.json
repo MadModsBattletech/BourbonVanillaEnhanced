@@ -2,7 +2,7 @@
     "Name": "DemandingJumps",
     "Enabled": true,
 
-    "Version": "1.9.0-001R",
+    "Version": "1.9.1-001R",
     "Description": "Jumping incurs a penalty to hitting targets depending on attackers weightclass.",
     "Author": "Mad",
 
@@ -10,6 +10,6 @@
 
     "Settings": {
         "ToHitSelfJumpedSpareAI": true,
-        "ToHitSelfJumpedPenalties": [1, 1, 2, 2]
+        "ToHitSelfJumpedPenalties": [2, 2, 2, 2]
     }
 }
