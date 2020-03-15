@@ -1,6 +1,6 @@
 {
     "Name": "FellOffACargoShip",
-    "Enabled": true,
+    "Enabled": false,
 
     "Version": "1.9.1-001R",
     "Description": "Add Mechs, Components & Funds to your inventory.",
