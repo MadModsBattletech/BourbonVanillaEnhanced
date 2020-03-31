@@ -1,13 +1,98 @@
+A high Guts skill lessens the time a MechWarrior needs in the Med Bay and lowers the chance that mortal injuries are fatal.
+A MechWarrior's Gunnery skill determines the chance to hit with ranged weaponry.
+A MechWarrior's Piloting skill increases the chance to hit in melee and improves their ability to keep a 'Mech steady under fire.
+After moving in combat, if there are no enemies in range, Brace your 'Mech to end its turn and gain defensive bonuses.
+Ballistic weapons recoil when fired and are harder to aim in subsequent shots.
+Completing sets of Partial 'Mech Salvage yields new BattleMechs that expand your arsenal.
+Making "Death from Above" attacks will damage your 'Mech's legs and make it more unstable. Use this ability carefully.
+Destroying an enemy BattleMech's head or legs removes it from combat and increases the amount of Partial 'Mech Salvage you can get.
+Facing matters. Keep your least damaged armor locations facing your enemy.
+Facing matters. Remember that a 'Mech's rear armor is thinner—use that to your advantage.
+Flamers, Small Lasers, and Machine Guns automatically fire after Melee attacks if the enemy 'Mech is still alive.
+Flamers generate no Heat when fired, but they can quickly overheat an enemy BattleMech.
+If both of its legs are destroyed, a 'Mech is removed from combat.
+If one of your 'Mechs is running hot, remember that Melee attacks don't generate Heat.
+If your 'Mech is at a higher elevation than its target, it will have a slightly higher chance to hit.
+Increasing your reputation with a faction will give you a discount in that faction's stores.
+Jumping on an enemy is highly effective but will result in damage to the attacker's legs and a chance to fall.
+Long-range weapons such as PPCs and LRMs suffer an aiming penalty when fired at short-range targets.
+Melee attacks can completely remove a target's Evasion, making it easier for your other 'Mechs to fire on that target.
+Missiles and Autocannons do more stability damage than Energy weapons and have a higher chance of knocking down an enemy.
+Withdrawing from a contract is a smart option if it looks like the payout won't be worth the repair bills.
+Speed is more important than firepower on escort and rescue missions.
+Systems with no permanent population won't have items for sale, but they will have contracts available.
+Accept priority contracts to move the story forward. They also pay extremely well.
+When High Lady Keona Arano founded the Aurigan Coalition in 2910, it comprised only four systems: Coromodir, Itrom, Tyrlon, and Guldra.
+The Tactics skill increases the effectiveness of Called Shots, also it reduces indirect fire and minimum range penalties.
+Turrets can Sensor Lock your units, allowing them to be hit by indirect fire. Being out of sight may not mean you are safe.
+Keep your 'Mechs moving to increase their defensive Evasion bonus.
+If your shipboard Morale is high enough, you gain Resolve each round of combat. Use it to activate powerful offensive and defensive abilities.
+Use your travel time efficiently. Order damaged 'Mechs to be repaired or upgraded while en route to your destination.
+Weapons with a "+" next to their names are rarer and of higher quality than stock weapons. The more "+" signs you see, the rarer the item.
+You can change your cinematic combat camera options in the Settings Menu.
+Put unused BattleMechs into storage to avoid maintenence fees.
+Try the Sensor Lock ability to expose enemies to indirect fire. Then you can use your Long-Range Missiles from the safety of terrain cover.
+Brace your destabilized 'Mechs to prevent further attacks from knocking them down.
+Right-click on an enemy 'Mech or vehicle to see details of its weapon loadouts and armor status.
+Some biomes affect your 'Mechs' ability to dissipate Heat. Be careful with jumping and Energy weapons in Lunar and Martian environments.
+If you Reserve a light 'Mech until a round's final phase, it can then take action in the next round's first phase—effectively moving twice in a row.
+The farther a unit travels during its turn, the higher its Evasion and the harder it is to hit.
+Vehicles take extra damage from Melee attacks.
+You can Reserve your 'Mechs to act in a later Initiative phase. This affords lighter units more flexibility in combat.
+Your MechWarrior's Morale transfers to the battlefield, allowing more use of Inspiration abilities in combat.
+Try to angle your attack to take advantage of your enemy's vulnerable armor locations.
+Manage your 'Mech's Heat in combat by turning off low-chance-to-hit weapons.
+Long-Range Missiles can fire over obstacles if a friendly unit has line of sight on the target. But that goes for the enemy, too.
+The first BattleMech, the Mackie, was developed by the scientists and military of the Terran Hegemony in 2439.
+In 2766, Stefan Amaris of the Rim Worlds Republic launched a bloody revolt that destroyed the Star League.
+You can order endangered MechWarriors to Eject in combat. Their 'Mechs will be recovered by your salvage team after the battle.
+Sometimes Withdrawing from a mission is the best thing for your bottom line.
+Hyperpulse Generators, controlled exclusively by ComStar, allow near-instantaneous video communication across vast interstellar distances.
+The Succession Wars destroyed Star League factories, making BattleMechs hard to maintain and produce. Much is now LosTech.
+The Succession Wars began in 2786 when Minoru Kurita of the Draconis Combine declared himself First Lord of the Star League.
+Gladiatorial 'Mech combat takes place on the world of Solaris VII, and is broadcast and wagered on throughout known space.
+The Free Worlds League is the oldest of the Successor States, founded by House Marik in 2271.
+Originally a representative democracy, the maneuverings of House Davion transformed the Federated Suns into a monarchy.
+The Lyran Commonwealth, led by House Steiner, began as a merger of mercantile alliances. It remains astoundingly wealthy to this day.
+Citizenship in the Capellan Confederation is a point of pride for many, as it must be earned through service to the State.
+When an attack destroys a location on a 'Mech, any remaining damage from the attack transfers toward the 'Mech's center.
+The percentage chance "to-hit" with missile weapons is the chance for each missile to hit its target.
+MechWarriors who are incapacitated in combat still have a chance to survive. Check your Mission Report to discover their fate.
+Each shot of an Autocannon after the first suffers a Recoil penalty that lowers its chance to hit. Resting the weapon for a turn removes the penalty.
+The Succession Wars between the Great Houses of the Inner Sphere have continued with little interruption since 2786.
+The short-lived Damage Inc. was one of the many mercenary commands to meet its ruin in the brutal combat of the Second Succession War.
+The mercenary unit Wolf's Dragoons appeared in the inner sphere in 3005, sporting five regiments of pristine BattleMechs.
+The 21st Centauri Lancers mutinied against House Liao over unpaid wages in 2875. They turned mercenary and seized a Liao JumpShip as payment.
+While not as famous as other merc units, the Grave Walkers have worked both for and against every major noble house for centuries.
+Recently founded in 3024 by Grayson Carlyle, the Gray Death Legion is composed of former planetary militia from the planet Trell I.
+The Kell Hounds mercenary command was founded in 3010 by Patrick and Morgan Kell, using the inheritance from the death of their father.
+The Lexington Combat Group has been continuously employed under mercenary contract to House Davion since the 2950's.
+Raised in 2930, McCarron's Armored Cavalry—The Big Mac—is one of the largest and most successful mercenary units in history.
+The Ares Conventions of 2412 established rules for modern combat, forbidding the use of nuclear and biological weapons and orbital bombardment.
+The mercenaries of the Eridani Light Horse trace their lineage back to the Star League Defense Force's 3rd Regimental Combat Team.
+In battle, speed is life. You go slow, you die. —"Deadeye" Unther, Hansen's Roughriders
+You can speed up any move or attack animation by pressing the Spacebar.
+You can make combat dramatically faster by selecting "Speed Up Combat" in the Settings menu.
+Select the Customize button in the Barracks to change your MechWarriors' names and portraits.
+Check the Settings menu for ways to customize the difficulty of your game. 
+Many star systems are home to exclusive Black Market stores which contain interesting items that "fell off a cargo ship" during transit. 
+Becoming Friends with the Pirate faction will increase your chance to purchase access to Black Market stores.
+Merc outfits that attain a high reputation with a given faction may be invited to become allies. Allies have access to that faction's private store.
+Forging an alliance with a faction has its downside. That faction's enemies become your enemies. 
+If you break your alliance with a faction, that faction's enemies are no longer your enemies.
+When you become allied with a faction, you may no longer accept missions in which that faction is the opposing force.
+Broken alliances cannot be re-forged until a year has passed.
+Check your Career Mode scoreboard regularly to discover ways of increasing your mercenary score.
 Jumping incurs a penalty to hitting targets depending on attackers weight class and adds one bar of stability damage.
 Master Tacticians will raise your teams resolve by 5 at the start of every round.
 Clients will only compensate for the anticipated tonnage needed to fulfill the contract. If you want to reduce risk further, you'll have to pay for it yourself.
 Your chosen expenditures for a month will strongly influence your company's morale and resolve in combat.
-Enemy 'Mechs with high quality gear will most likely be piloted by veteran mechwarriors. Be alert!
+Enemy 'Mechs with high quality gear will most likely be piloted by veteran MechWarriors. Be alert.
 Headshots against moving targets may only involve one weapon by default. Investing in the gunnery skill will raise that limit.
 Right-click on the portrait of your MechWarriors to have a look at their general condition.
 Successful "Death from Above" attacks will remove ENTRENCHED from a target 'Mech.
 Juggernauts can CHARGE into other mechs at sprint range and gain GUARDED state after making regular melee attacks.
-Watch out for a MechWarrior's stress level! Use the Inspiration ability "Vigilance" to reassure your pilots.
+Watch out for a MechWarrior's stress level. Use the Inspiration ability "Vigilance" to reassure your pilots.
 The Argo's training modules will help your MechWarriors utilize their combat experience to a greater extent.
 Exceptional prowess in Battle will result in bonus experience for your MechWarriors.
-A knocked-down 'Mech is very limited in its movement options the next turn. Stay on your feet!
+A knocked-down 'Mech is very limited in its movement options the next turn. Stay on your feet.

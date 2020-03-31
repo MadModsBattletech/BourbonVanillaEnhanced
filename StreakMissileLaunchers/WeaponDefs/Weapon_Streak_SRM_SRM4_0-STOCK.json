@@ -1,0 +1,67 @@
+{
+    "Category": "Missile",
+    "Type": "SRM",
+    "WeaponSubType": "SRM4",
+    "MinRange": 0,
+    "MaxRange": 270,
+    "RangeSplit": [
+        180,
+        180,
+        270
+    ],
+    "ammoCategoryID": "SRMStreak",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 8,
+    "Damage": 8,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 4,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 3,
+    "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
+    "Description": {
+        "Cost": 240000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "TharHes",
+        "Model": "Streak SRM Launcher",
+        "UIName": "Streak SRM4",
+        "Id": "Weapon_Streak_SRM_SRM4_0-STOCK",
+        "Name": "Streak SRM4",
+        "Details": "The midtier rack of Streak Short-Range Missiles, Streak SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all Streak SRMs, the Streak SRM6 launcher incorporates a unique Fire Control System (FCS) which will prevent the missiles from launching if a hit is not guaranteed. All Streak launchers are inherently more accurate than their standard counterparts.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "srm4",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 3,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard",
+			"component_type_lostech",
+			"component_type_srmstreak"
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

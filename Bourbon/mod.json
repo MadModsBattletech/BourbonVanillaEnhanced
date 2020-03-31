@@ -7,6 +7,6 @@
     "Author": "Mad",
     
     "Manifest": [
-        { "Type": "GameTip", "Path": "GameTips\\", "ShouldAppendText": true }
+        { "Type": "GameTip", "Path": "GameTips\\", "ShouldAppendText": false }
     ]
 }

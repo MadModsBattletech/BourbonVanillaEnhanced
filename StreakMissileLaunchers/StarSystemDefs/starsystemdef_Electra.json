@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Electra",
+    "Instructions": [
+        {
+			"JSONPath": "SystemShopItems",
+			"Action": "ArrayAdd",
+			"Value": "itemCollection_SML_Custom"
+		}
+    ]
+}

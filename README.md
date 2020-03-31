@@ -113,6 +113,7 @@ HeavyMetalEnhanced
 [Simple  Ejection System](./SimpleEjectionSystem/README.md)  
 [Skip Intro](./SkipIntro/README.md)  
 [Soft Experience Cap](./SoftExperienceCap/README.md)  
+[Streak Missile Launchers](./StreakMissileLaunchers/Readme.md)  
 [Sustainable Evasion](./SustainableEvasion/README.md)  
 UrbanWarfareEnhanced  
 VanillaEnhanced  
@@ -138,6 +139,7 @@ https://github.com/mad2342/RandomCampaignStart/releases
 https://github.com/mad2342/SimpleEjectionSystem/releases  
 https://github.com/mad2342/SkipIntro/releases  
 https://github.com/mad2342/SoftExperienceCap/releases  
+https://github.com/mad2342/StreakMissileLaunchers/releases  
 https://github.com/mad2342/SustainableEvasion/releases 
 https://github.com/mad2342/UrbanWarfareEnhanced   
 https://github.com/mad2342/VanillaEnhanced  
