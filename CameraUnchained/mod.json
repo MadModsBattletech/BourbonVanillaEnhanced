@@ -1,6 +1,6 @@
 {
     "Name": "CameraUnchained",
-    "Enabled": false,
+    "Enabled": true,
 
     "Version": "1.9.1-001R",
     "Description": "Suppress forced camera movements. Simple focus on relevant events without blocking players ability to control camera.",

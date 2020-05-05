@@ -30,7 +30,7 @@
     "WeaponEffectID": "WeaponEffect-Weapon_SRM2",
     "Description": {
         "Cost": 140000,
-        "Rarity": 5,
+        "Rarity": 9,
         "Purchasable": true,
         "Manufacturer": "Valiant",
         "Model": "Streak SRM Launcher",
@@ -40,8 +40,8 @@
         "Details": "A tiny rack of Streak Short-Range Missiles, Streak SRM2s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all Streak SRMs, the Streak SRM6 launcher incorporates a unique Fire Control System (FCS) which will prevent the missiles from launching if a hit is not guaranteed. All Streak launchers are inherently more accurate than their standard counterparts.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA": "- 0.5 Tons",
-    "BonusValueB": "+ 2 Stb.Dmg.",
+    "BonusValueA": "Deprecated",
+    "BonusValueB": "Please dump",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "srm2",
@@ -59,7 +59,7 @@
             "component_type_stock",
             "range_standard",
 			"component_type_lostech",
-			"component_type_srmstreak"
+			"component_type_srmstreak",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

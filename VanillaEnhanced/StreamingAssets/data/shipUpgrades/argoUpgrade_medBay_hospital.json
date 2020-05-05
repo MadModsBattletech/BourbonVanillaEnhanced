@@ -1,0 +1,22 @@
+{
+    "Stats" : [
+		{
+			"typeString" : "System.Int32",
+			"name" : "MedTechSkill",
+			"value" : 3,
+			"valueConstant" : ""
+		},
+		{
+			"typeString" : "System.Single",
+			"name" : "IncapacitatedDeathChance",
+			"value" : -0.2,
+			"valueConstant" : ""
+		},
+		{
+			"typeString" : "System.Single",
+			"name" : "LethalDeathChance",
+			"value" : -0.2,
+			"valueConstant" : ""
+		}		
+    ]
+}

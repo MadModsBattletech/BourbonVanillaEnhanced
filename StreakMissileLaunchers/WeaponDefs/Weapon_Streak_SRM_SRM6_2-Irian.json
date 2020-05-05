@@ -26,11 +26,11 @@
     "ShotsWhenFired": 6,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 3,
+    "Instability": 5,
     "WeaponEffectID": "WeaponEffect-Weapon_SRM6",
     "Description": {
         "Cost": 540000,
-        "Rarity": 5,
+        "Rarity": 9,
         "Purchasable": true,
         "Manufacturer": "Irian",
         "Model": "Streak SRM Launcher",
@@ -41,7 +41,7 @@
         "Icon": "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA": "- 1.5 Tons",
-    "BonusValueB": "",
+    "BonusValueB": "+ 2 Stb.Dmg.",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "srm6",
@@ -59,7 +59,7 @@
             "component_type_stock",
             "range_standard",
 			"component_type_lostech",
-			"component_type_srmstreak"
+			"component_type_srmstreak",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -1,4 +1,7 @@
 {
     "HeatGenerated" : 10,
+    "Description" : {
+        "Cost" : 240000
+    },
     "BonusValueB" : "- 2 Heat"
 }
