@@ -30,7 +30,7 @@ If your shipboard Morale is high enough, you gain Resolve each round of combat. 
 Use your travel time efficiently. Order damaged 'Mechs to be repaired or upgraded while en route to your destination.
 Weapons with a "+" next to their names are rarer and of higher quality than stock weapons. The more "+" signs you see, the rarer the item.
 You can change your cinematic combat camera options in the Settings Menu.
-Put unused BattleMechs into storage to avoid maintenence fees.
+Put unused BattleMechs into storage to avoid maintenance fees.
 Try the Sensor Lock ability to expose enemies to indirect fire. Then you can use your Long-Range Missiles from the safety of terrain cover.
 Brace your destabilized 'Mechs to prevent further attacks from knocking them down.
 Right-click on an enemy 'Mech or vehicle to see details of its weapon loadouts and armor status.

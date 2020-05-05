@@ -87,16 +87,5 @@
             "Name": "VIGILANCE COST HIGH",
             "Details": "Cost: <color=#85DBF6FF>25 Resolve (this MechWarrior has High Spirits)</color>"
         }
-    },
-    "CameraConstants":
-    {
-        "MoveSpeed" : 120.0,
-        "ZoomSpeed" : 2000.0,
-        "RotationSpeed" : 32.0,
-        "RotationSpeedKeyboard" : 32.0,
-        "MinHeightAboveTerrain" : 15.0,
-        "MaxHeightAboveTerrain" : 580.0,
-        "MinAngle" : 5.0,
-        "MaxAngle" : 80.0
     }
 }

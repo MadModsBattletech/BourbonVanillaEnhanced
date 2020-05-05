@@ -1,6 +1,7 @@
 {
 	"Story":
 	{
+		"MaxContractsPerSystem" : 9,
 		"DefaultRoninHiringChance": 0.48
 	},
    "MechLab" :{

@@ -2,11 +2,12 @@
     "Name": "FlashpointEnhanced",
     "Enabled": true,
     
-    "Version": "1.8.1",
+    "Version": "1.9.1",
     "Description": "Enhancements and additions for BTG Flashpoint Expansion.",
     "Author": "Mad",
 
     "Manifest": [
+        { "Type": "ContractOverride", "Path": "ContractOverrides\\" },
         { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
         { "Type": "MechDef", "Path": "MechDefs\\" },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },

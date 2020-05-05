@@ -11,5 +11,11 @@
 	"Manifest": [
 		{ "Type": "MechDef", "Path": "MechDefs\\" },
 		{ "Type": "PilotDef", "Path": "PilotDefs\\" }
-    ]
+    ],
+
+    "Settings": {
+        "EnableDynamicContractDifficultyVariance": true,
+        "Difficulty": 2,
+        "SalvageHighQualityWeaponsBaseChancePercent": 20
+    }
 }
