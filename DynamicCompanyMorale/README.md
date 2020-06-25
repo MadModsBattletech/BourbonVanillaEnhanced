@@ -11,6 +11,7 @@
   * Morale boosts/penalties are multiplied by 4
   * The effects are temporary and expire after a while just like the MedTech/MechTech events do
   * This is reflected in the UI
+* Certain tags of your hired guns will have a small impact on morale
 
 ## Thanks
 * Zathoth

@@ -2,7 +2,7 @@
     "Name": "LittleThings",
     "Enabled": true,
 
-    "Version": "1.9.1-004R",
+    "Version": "1.9.1-005R",
     "Description": "Fix some little annoyances and change minor things.",
     "Author": "Mad",
 
@@ -47,6 +47,11 @@
         "ReserveEnable": false,
         "ReserveBasePercentage": 25,
 
-        "DFAsRemoveEntrenched": true
+        "DFAsRemoveEntrenched": true,
+
+        "UnlockAllianceFlashpoints": true,
+        "UnlockAllianceFlashpointsAtReputation": 100,
+
+        "RepeatableHeavyMetalCampaign": false
     }
 }

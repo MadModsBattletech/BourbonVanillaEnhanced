@@ -2,7 +2,7 @@
 	"Name": "DynamicCompanyMorale",
 	"Enabled": true,
    
-    "Version": "1.9.1-001R",
+    "Version": "1.9.1-002R",
 	"Description": "Company morale system is made more interesting by introducing temporary morale events and meaningful financial decisions at the start of each quarter.",
 	"Author": "Mad",
 
@@ -11,7 +11,11 @@
 	"Settings": {
         "EventMoraleMultiplier": 4,
         "EventMoraleDurationBase": 15,
-        "EventMoraleDurationNumerator": 240
+        "EventMoraleDurationNumerator": 240,
+        "RespectPilotTags": true,
+        "PositivePilotTags": ["pilot_honest"],
+        "NegativePilotTags": ["pilot_disgraced"],
+        "PilotTagImpact": 1
     },
 
 	"Manifest": [
