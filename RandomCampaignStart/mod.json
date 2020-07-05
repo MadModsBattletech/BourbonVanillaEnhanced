@@ -1,8 +1,8 @@
 {
     "Name": "RandomCampaignStart",
-    "Enabled": false,
+    "Enabled": true,
 
-    "Version": "1.8.1-002R",
+    "Version": "1.9.1-001R",
     "Description": "Randomizes the starting MechWarriors and 'Mechs.",
     "Author": "Mad (Forked from Mpstark)",
 
@@ -14,10 +14,10 @@
         "NumberRandomRonin": 0,
         "NumberProceduralPilots": 0,
         "StartingRonin": [
-            "pilot_backer_FalkM",
-            "pilot_backer_Leone",
-            "pilot_backer_Thomas",
-            "pilot_backer_Helterbran"
+            "pilot_sim_starter_behemoth",
+            "pilot_sim_starter_dekker",
+            "pilot_sim_starter_glitch",
+            "pilot_sim_starter_medusa"
         ],
         "BlacklistedRonins": [
             "pilot_backer_Test9",
@@ -42,25 +42,19 @@
             "mechdef_commando_COM-2D",
             "mechdef_firestarter_FS9-H",
             "mechdef_jenner_JR7-D",
-            "mechdef_locust_LCT-1V",
             "mechdef_locust_LCT-1M",
-            "mechdef_locust_LCT-1S",
             "mechdef_panther_PNT-9R",
-            "mechdef_spider_SDR-5V",
-            "mechdef_urbanmech_UM-R60"
+            "mechdef_spider_SDR-5V"
         ],
         "MediumMechsPossible": [
             "mechdef_blackjack_BJ-1",
             "mechdef_centurion_CN9-A",
             "mechdef_centurion_CN9-AL",
-            "mechdef_cicada_CDA-2A",
-            "mechdef_cicada_CDA-3C",
             "mechdef_enforcer_ENF-4R",
             "mechdef_griffin_GRF-1N",
             "mechdef_griffin_GRF-1S",
             "mechdef_hunchback_HBK-4G",
             "mechdef_hunchback_HBK-4P",
-            "mechdef_kintaro_KTO-18",
             "mechdef_shadowhawk_SHD-2D",
             "mechdef_shadowhawk_SHD-2H",
             "mechdef_trebuchet_TBT-5N",
@@ -69,35 +63,13 @@
             "mechdef_wolverine_WVR-6R"
         ],
         "HeavyMechsPossible": [
-            "mechdef_blackknight_BL-6-KNT",
-            "mechdef_cataphract_CTF-1X",
-            "mechdef_catapult_CPLT-C1",
-            "mechdef_catapult_CPLT-K2",
             "mechdef_dragon_DRG-1N",
-            "mechdef_grasshopper_GHR-5H",
-            "mechdef_jagermech_JM6-A",
             "mechdef_jagermech_JM6-S",
-            "mechdef_orion_ON1-K",
-            "mechdef_orion_ON1-V",
-            "mechdef_quickdraw_QKD-4G",
-            "mechdef_quickdraw_QKD-5A",
-            "mechdef_thunderbolt_TDR-5S",
-            "mechdef_thunderbolt_TDR-5SE",
-            "mechdef_thunderbolt_TDR-5SS"
+            "mechdef_quickdraw_QKD-4G"
         ],
         "AssaultMechsPossible": [
-            "mechdef_atlas_AS7-D",
-            "mechdef_awesome_AWS-8Q",
-            "mechdef_awesome_AWS-8T",
-            "mechdef_banshee_BNC-3E",
             "mechdef_banshee_BNC-3M",
-            "mechdef_battlemaster_BLR-1G",
-            "mechdef_highlander_HGN-733",
-            "mechdef_highlander_HGN-733P",
-            "mechdef_kingcrab_KGC-0000",
-            "mechdef_stalker_STK-3F",
             "mechdef_victor_VTR-9B",
-            "mechdef_victor_VTR-9S",
             "mechdef_zeus_ZEU-6S"
         ]
     }

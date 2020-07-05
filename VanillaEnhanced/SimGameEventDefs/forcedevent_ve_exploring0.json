@@ -1,23 +1,23 @@
 {
     "Description" : {
-        "Id" : "event_dcm_exploringAsteroidField0",
+        "Id" : "forcedevent_ve_exploring0",
         "Name" : "Exploring Asteroid Field",
         "Details" : "After what felt like some sudden brakes and turns Sumire catches you with her eyes gleaming. \"I just maneuvered through an asteroid fields when sensors catched something on one of the bigger ones. Looks like there are some kinds of man-made structures on the surface of the asteroid but i'd really like to have a closer look... What do you think?\"",
         "Icon" : "uixTxrSpot_ArgoParked.png"
     },
     "Scope" : "Company",
-    "Weight" : 50,
+    "Weight" : 100,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "argo_mechBay1"
+
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "ExclusionTags" : {
             "items" : [
-                "event_dcm_exploringAsteroidField_DONE"
+                "forcedevent_ve_exploring_success"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -31,8 +31,8 @@
 			{
                 "obj" : "Funds",
                 "op" : "GreaterThan",
-                "val" : 250000,
-                "valueConstant" : "250000"
+                "val" : 350000,
+                "valueConstant" : "350000"
             },
             {
                 "obj" : "MechTechSkill",
@@ -232,7 +232,7 @@
                             "ForceEvents" : [
                                 {
                                     "Scope" : "Company",
-                                    "EventID" : "event_dcm_exploringAsteroidField1",
+                                    "EventID" : "forcedevent_ve_exploring1",
                                     "MinDaysWait" : 0,
                                     "MaxDaysWait" : 1,
                                     "Probability" : 100,
@@ -261,5 +261,5 @@
     ],
     "PublishState" : "PUBLISHED",
     "ValidationState" : "UNTESTED",
-    "EventType" : "NORMAL"
+    "EventType" : "UNSELECTABLE"
 }

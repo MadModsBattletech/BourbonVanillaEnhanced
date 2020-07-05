@@ -1,6 +1,6 @@
 {
     "Description" : {
-        "Id" : "event_dcm_exploringAsteroidField1",
+        "Id" : "forcedevent_ve_exploring1",
         "Name" : "Exploring Asteroid Field",
         "Details" : "Early in the morning Sumire hammers at your quarters doors excitedly. \"Commander, i found something amazing in the the sensor scans I made yesterday! The research outpost seemed to have a Mechbay and it's within reasonable paremeters that I could recover some valuable stuff that might still be in there!\"\r\n\r\n\"I'd only need the Leopard, a few days of time and some engineers to help me get through to the Bay!\" She adds while standing before you, already in her flight uniform, and eagerly awaiting your decision.",
         "Icon" : "uixTxrSpot_ArgoParked.png"
@@ -11,7 +11,7 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "dcm_requirement_IMPOSSIBLE"
+
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -61,7 +61,7 @@
             "Description" : {
                 "Id" : "outcome_1",
                 "Name" : "Indulge Sumire and send some MechTechs.",
-                "Details" : "[\u00A2200,000]",
+                "Details" : "[\u00A2300,000]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -79,8 +79,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 200000,
-                            "valueConstant" : "200000"
+                            "val" : 300000,
+                            "valueConstant" : "300000"
                         }
                     ]
                 }
@@ -100,7 +100,7 @@
                             "Requirements" : null,
                             "AddedTags" : {
 							   "items" : [
-									"event_dcm_exploringAsteroidField_DONE"
+									"forcedevent_ve_exploring_success"
 								],
                                 "tagSetSourceFile" : ""
                             },
@@ -112,7 +112,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-200000",
+                                    "value" : "-300000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -173,5 +173,5 @@
     ],
     "PublishState" : "PUBLISHED",
     "ValidationState" : "UNTESTED",
-    "EventType" : "NORMAL"
+    "EventType" : "UNSELECTABLE"
 }

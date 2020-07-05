@@ -1,0 +1,36 @@
+{
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {},
+            "RemovedTags" : {},
+            "Stats" : [
+			
+            ],
+            "Actions" : [			
+				{
+                    "Type" : "System_AddContract",
+                    "value" : "trav_story_misc_benefactor",
+                    "valueConstant" : null,
+					"additionalValues" : [
+						"NoFaction",
+						"MagistracyOfCanopus",
+						"starsystemdef_Bellerophon"
+					]
+                }			
+            ],
+            "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_ve_exploring0",
+					"MinDaysWait" : 0,
+					"MaxDaysWait" : 1,
+					"Probability" : 100
+				}
+			],
+			"TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ]
+}

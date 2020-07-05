@@ -13,7 +13,28 @@
         "ToHitMinimumRange": 10,    
         "ToHitCoverObstructed": 4,
         
-        "SensorLockPipsStripped": 3
+        "SensorLockPipsStripped": 3,
+		
+        "EvasivePipsMovingTarget": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "ToHitMovingTargetStrings": [
+            "1 EVASIVE charge: +{0} Difficulty to hit this unit with ranged attacks.",
+            "2 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "3 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "4 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "5 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "7 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+            "8 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
+        ],
     },
     "ResolutionConstants":
     {
