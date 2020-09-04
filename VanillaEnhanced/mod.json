@@ -10,6 +10,7 @@
     
     "Manifest": [
         { "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" },
+        { "Type": "ContractOverride", "Path": "ContractOverrides\\" },
         { "Type": "WeaponDef", "Path": "WeaponDefs\\" },
         { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
         { "Type": "MechDef", "Path": "MechDefs\\" },

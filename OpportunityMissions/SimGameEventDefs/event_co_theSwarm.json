@@ -1,0 +1,220 @@
+{
+    "Description" : {
+        "Id" : "event_co_theSwarm",
+        "Name" : "The Swarm",
+        "Details" : "Before the Daily Briefing Farah approaches you with a gloomy mood. \"Commander, during my shore leave i talked with some local farmers who begged me to bring this matter to you.\"\r\n\r\nShe sighs. \"The people are starving as the farmers are constantly robbed by an unknown mob of pirates. A swarm of lights, like harvest flies, they say.\"\r\n\r\n\"Commander, i feel sorry for them and would like to help. If we could at least eliminate their leader that would probably scatter his supporters. As for payment, the farmers eventually use an ancient DHS for their facilities and are more than willing to pay us with that. They are no Mechtechs but it could still be true.\"",
+        "Icon" : "uixTxrSpot_DailyBriefing.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "event_co_theSwarm",
+                "starsystem_opportunitymission_active"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+			{
+				"obj" : "Reputation.MercenaryReviewBoard",
+				"op" : "GreaterThanOrEqual",
+				"val" : 500,
+				"valueConstant" : "500"
+			},
+            {
+                "obj" : "Funds",
+                "op" : "GreaterThan",
+                "val" : 500000,
+                "valueConstant" : "500000"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "items" : [
+                    "planet_industry_poor",
+                    "planet_industry_agriculture"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "planet_other_empty"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Stay out of it.",
+                "Details" : "Non-participation Option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "Your response comes slowly but determined. \"Farah, sorry, but we simply cannot risk a drop with this little intel. With no payment and only a very unlikely probability of getting some rare equipment, i can only refuse.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+					
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Flush them out.",
+                "Details" : "[\u00A2300,000, Drop an assassination lance]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 300000,
+                            "valueConstant" : "300000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Start a self-employed contract, Difficulty5",
+                        "Details" : "You feel sympathy with the defenceless farmers. \"You got me, Farah, let's get to it. Even if there will be no DHS it's still the right thing to do.\"\r\n\r\nYou turn to Sumire. \"Please prepare at least the most important intel and send it to Command. Time for some selflessness!\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                       {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_theSwarm"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-300000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "Assassinate_TheSwarm_D5",
+									"valueConstant" : "Harvest Flies",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed_Farah"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}

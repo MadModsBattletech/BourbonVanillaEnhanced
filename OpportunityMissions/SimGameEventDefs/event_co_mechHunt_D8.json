@@ -1,0 +1,219 @@
+{
+    "Description" : {
+        "Id" : "event_co_mechHunt_D8",
+        "Name" : "a Rare Opportunity",
+        "Details" : "The door to your quarters isn't even fully open, as Yang starts talking in excitement.\r\n\r\n\"Commander, you might wanna hear this! There is the strong possibility that a well-known Defector is hiding here in {TGT_SYSTEM.Name}.\"\r\n\r\nAfter catching his breath he adds what explains his enthusiasm. \"That dissident is said to pilot an old SLDF Mech, if the rumors are true and we manage to find him that's a unique chance of getting our hands on some really rare SLDF salvage!\"\r\n\r\n\"Also, various factions probably have a price on his head, our reputation won't suffer either\" he adds with a happy face. \"What do you say, Boss? Will you get me some new toys to play with?\"",
+        "Icon" : "uixTxrSpot_MechBay.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "event_co_mechHunt",
+                "starsystem_opportunitymission_active"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+			{
+				"obj" : "Reputation.MercenaryReviewBoard",
+				"op" : "GreaterThanOrEqual",
+				"val" : 800,
+				"valueConstant" : "800"
+			},
+            {
+                "obj" : "Funds",
+                "op" : "GreaterThan",
+                "val" : 500000,
+                "valueConstant" : "500000"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "items" : [
+                    "planet_other_starleague"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "planet_other_empty"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Stay out of it.",
+                "Details" : "Non-participation Option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "You shake your head. \"Not this time, Yang. Unfortunately, we can't spare the resources, and it's just rumors, aren't they?\" Yang sighs. He lets the argument drop, but spends a few days wistfully looking at Technical Readouts with his crew.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+					
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Let's try to get him.",
+                "Details" : "[\u00A2300,000, Drop an assassination lance]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 300000,
+                            "valueConstant" : "300000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Start a self-employed contract, Difficulty8",
+                        "Details" : "\"I have to admit, Yang, that sounds like an exceptional opportunity,\" you say. \"Ok, let Sumire find that dissident and you come back to me with a mission briefing even Darius will find acceptable. At least he's a criminal so we're doing the right thing here.\"\r\n\r\nYang grins. \"Yeah, Boss. Thanks for hearing me out. I'm looking forward to the salvage!\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                       {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_mechHunt"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-300000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "Assassinate_MechHunt_D8",
+									"valueConstant" : "A Rare Opportunity",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed_Yang"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}

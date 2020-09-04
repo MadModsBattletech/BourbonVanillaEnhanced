@@ -1,0 +1,10 @@
+{
+    "TargetID": "mechdef_blackknight_BL-6b-KNT",
+    "Instructions": [
+        {
+			"JSONPath": "MechTags.items",
+			"Action": "ArrayAdd",
+			"Value": "unit_sldf"
+		}
+    ]
+}

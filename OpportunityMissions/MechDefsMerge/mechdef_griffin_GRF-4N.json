@@ -1,0 +1,10 @@
+{
+    "TargetID": "mechdef_griffin_GRF-4N",
+    "Instructions": [
+        {
+			"JSONPath": "MechTags.items",
+			"Action": "ArrayAdd",
+			"Value": "unit_sldf"
+		}
+    ]
+}

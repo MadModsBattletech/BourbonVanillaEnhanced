@@ -1,0 +1,132 @@
+{
+   "Description" : {
+      "Id" : "lancedef_turret_d3_sldf",
+      "Name" : "Difficulty3 SLDF Turret Lance",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 3,
+   "LanceTags" : {
+      "items" : [
+		 "lance_type_turret_sldf"
+      ],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Turret",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_turret",
+               "unit_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+				"pilot_turret_sldf"
+           ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Turret",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_turret",
+               "unit_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+				"pilot_turret_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Turret",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_turret",
+               "unit_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+				"pilot_turret_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Turret",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_light",
+               "unit_turret",
+               "unit_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+				"pilot_turret_sldf"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      }
+   ]
+}

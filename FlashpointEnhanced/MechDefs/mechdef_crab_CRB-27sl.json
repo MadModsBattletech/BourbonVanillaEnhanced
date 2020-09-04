@@ -14,7 +14,8 @@
 			"NotSteiner",
 			"NotMagistracyOfCanopus",
 			"NotTaurianConcordat",
-            "BLACKLISTED"
+			"BLACKLISTED",
+			"unit_sldf"
         ],
         "tagSetSourceFile": ""
     },

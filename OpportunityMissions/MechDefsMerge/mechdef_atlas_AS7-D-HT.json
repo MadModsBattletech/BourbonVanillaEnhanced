@@ -1,0 +1,10 @@
+{
+    "TargetID": "mechdef_atlas_AS7-D-HT",
+    "Instructions": [
+        {
+			"JSONPath": "MechTags.items",
+			"Action": "ArrayAdd",
+			"Value": "unit_sldf"
+		}
+    ]
+}

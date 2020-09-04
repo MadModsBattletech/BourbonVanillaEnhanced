@@ -1,0 +1,293 @@
+{
+    "Description" : {
+        "Id" : "event_co_inDireNeed",
+        "Name" : "In Dire Need",
+        "Details" : "Darius catches your attention on the bridge. \"Commander, Sumire picked up quite a special distress call from the planet's surface. I wouldn't bother you if it wasn't quite the opportunity.\"\r\n\r\nHe studies the display. \"A billionaire in retirement is besieged by an unknown mercenary company. He offers around <b>3 million C-Bills</b> for an extraction to safety!\"\r\n\r\nAfter a short pause he continues. \"Of course there is no guarantee for his credibility but at this price tag i felt obliged to leave the decision to you.\"",
+        "Icon" : "uixTxrSpot_IncomingTransimission.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "event_co_inDireNeed",
+                "starsystem_opportunitymission_active"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+			{
+				"obj" : "Reputation.MercenaryReviewBoard",
+				"op" : "GreaterThanOrEqual",
+				"val" : 500,
+				"valueConstant" : "500"
+			},
+            {
+                "obj" : "Funds",
+                "op" : "GreaterThan",
+                "val" : 500000,
+                "valueConstant" : "500000"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "items" : [
+                    "planet_industry_rich",
+                    "planet_industry_recreation"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "planet_other_empty"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Stay out of it.",
+                "Details" : "Non-participation Option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "Thanks for the heads up, Darius, but in our current situation i consider this potential mission as too risky. We simply cannot trust some unknown signals source and risk important resources.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+					
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "We'll do it.",
+                "Details" : "[\u00A2300,000, Prepare an extraction drop]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 300000,
+                            "valueConstant" : "300000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Start a self-employed contract, Difficulty5",
+                        "Details" : "Around three million C-Bills? That's something i am willing to take the risk for. Darius, please prepare a mission briefing so we can drop as soon as possible. At the very least we'll get some target practice and reputation out of it.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 60,
+                    "Results" : [
+                       {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_inDireNeed"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-300000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "Rescue_InDireNeed_D5",
+									"valueConstant" : "In Dire Need",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_1",
+                        "Name" : "Start a self-employed contract, Difficulty8, probably with secondary objective",
+                        "Details" : "Around three million C-Bills? That's something i am willing to take the risk for. Please prepare a mission briefing so we can drop as soon as possible. At the very least we'll get some target practice and reputation out of it.",
+                        "Icon" : ""
+                    },
+                    "Weight" : 40,
+                    "Results" : [
+                       {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_inDireNeed"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-300000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "Rescue_InDireNeed_D8",
+									"valueConstant" : "In Dire Need",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}

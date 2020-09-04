@@ -1,0 +1,10 @@
+{
+    "TargetID": "mechdef_highlander_HGN-732b",
+    "Instructions": [
+        {
+			"JSONPath": "MechTags.items",
+			"Action": "ArrayAdd",
+			"Value": "unit_sldf"
+		}
+    ]
+}

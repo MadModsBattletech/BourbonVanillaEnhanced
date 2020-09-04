@@ -17,7 +17,9 @@
 			"Marik",
 			"Steiner",
 			"MagistracyOfCanopus",
-			"TaurianConcordat"			
+			"TaurianConcordat",
+			"BLACKLISTED",
+			"unit_sldf"			
         ],
         "tagSetSourceFile": ""
     },

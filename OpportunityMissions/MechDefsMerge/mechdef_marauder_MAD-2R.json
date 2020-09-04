@@ -1,0 +1,10 @@
+{
+    "TargetID": "mechdef_marauder_MAD-2R",
+    "Instructions": [
+        {
+			"JSONPath": "MechTags.items",
+			"Action": "ArrayAdd",
+			"Value": "unit_sldf"
+		}
+    ]
+}

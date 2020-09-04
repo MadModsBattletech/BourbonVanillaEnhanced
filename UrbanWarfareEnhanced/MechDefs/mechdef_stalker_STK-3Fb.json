@@ -14,7 +14,8 @@
 			"unit_speed_low",
 			"Marik",
 			"Steiner",
-            "BLACKLISTED"
+			"BLACKLISTED",
+			"unit_sldf"
         ],
         "tagSetSourceFile": ""
     },

@@ -1,0 +1,318 @@
+{
+    "Description" : {
+        "Id" : "event_co_unexpectedSignals_D5",
+        "Name" : "Unexpected Signals",
+        "Details" : "Sumire catches your attention on the bridge. \"Commander, I've picked up weird sensor readings from the planet's surface. I could be wrong but they definetely show some similarities with the readings i recognized on Artru. Remember Castle Nautilus?\"\r\n\r\nThat's not exactly hard evidence for the existence of a SLDF Castle here on {TGT_SYSTEM.Name} but i thought i should at least inform you of a possible opportunity...\"\r\n\r\nShe studies the display. \"I was thinking, if we adjust the <i>Argo</i>'s orbit, I could take some more detailed sensor readings. It wouldn't cost us much.\"\r\n\r\nThen, casually, as if as an afterthought, she adds, \"Or we could take the Leopard down to the surface to do more extensive research. What do you think?\"",
+        "Icon" : "uixTxrSpot_UnidentifiedObject.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "event_co_unexpectedSignals",
+                "starsystem_opportunitymission_active"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+			{
+				"obj" : "Reputation.MercenaryReviewBoard",
+				"op" : "GreaterThanOrEqual",
+				"val" : 500,
+				"valueConstant" : "500"
+			},
+            {
+                "obj" : "Funds",
+                "op" : "GreaterThan",
+                "val" : 500000,
+                "valueConstant" : "500000"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "items" : [
+                    "planet_other_empty",
+					"planet_other_ruins"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+				
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Don't waste resources.",
+                "Details" : "Non-participation Option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "After some consideration, you shake your head. \"We're not here to investigate what could just be a sensor failure, no matter how lucrative it might be.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+					
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Scan the surface from orbit.",
+                "Details" : "[\u00A230,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 30000,
+                            "valueConstant" : "30000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Nothing found",
+                        "Details" : "Sumire and her staff scan the planet's surface below, and during the next few hours she pores over the collected data and delivers a report.\r\n\r\n\"Commander, we didn't detect anything that hasn't been thoroughly documented already. My apologies for wasting the <i>Argo</i>'s time, but I thought it was worth a shot.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-30000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_unexpectedSignals"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_2",
+                "Name" : "Prepare a Recon Drop.",
+                "Details" : "[\u00A2220,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 220000,
+                            "valueConstant" : "220000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_0",
+                        "Name" : "Start a self-employed contract",
+                        "Details" : "After some consideration, you decide to not let this opportunity pass.\r\n\r\n\"Ok, we're doing this properly this time. Sumire, gather all data we need for a deployment and talk to Yang to prepare everything for a medium recon lance drop. I am not willing to risk more than that. If we face overwhelming odds we can still withdraw and go our way.\"\r\n\r\n\r\nA few hours later Sumire returns to the bridge. \"Commander, while preparing the mission briefing sensors registered additional activity in the perimeter. It seems we're not the only ones investigating the facility, let's better be quick.\"\r\n\r\n\"I already added the details to the command center, we can drop anytime\", she adds before leaving to her post.\r\n\r\n",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                       {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_unexpectedSignals"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 90
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-220000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "CaptureBase_UnexpectedSignals_D5",
+									"valueConstant" : "Unexpected Signals",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed_Sumire"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL"
+}
