@@ -2,7 +2,7 @@
     "Name": "CommanderPortraitLoader",
     "Enabled": true,
 
-    "Version": "1.8.1-003R",
+    "Version": "1.9.1-001R",
     "Description": "Loads your custom PNGs as a Commander avatar.",
     "Author": "Mad (Forked from Morphyum, Callyste & Jamie Wolf)",
 	
@@ -10,7 +10,7 @@
 
 	"Manifest": [
     {
-      "Type": "Sprite", "Path": "Portraits"
+      "Type": "Sprite", "Path": "Portraits/"
     }
   ]
 }

@@ -65,7 +65,7 @@ This modpack requires ModTek which *is included* in the download for convenience
 
 
 ## Requirements
-Tested against BTG 1.8.1 with all DLCs. Most likely it is possible to run this modpack without some of the DLCs present but i did not (and will not) verify this.  
+Tested against BTG 1.9.1 with all DLCs. Most likely it is possible to run this modpack without some of the DLCs present but i did not (and will not) verify this.  
 I will appreciate feedback regarding this topic though.
 
 	

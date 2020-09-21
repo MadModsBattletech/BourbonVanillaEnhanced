@@ -12,8 +12,8 @@
    "ChassisID" : "turretchassisdef_Heavy_laser",
    "TurretTags": {
       "items": [
-         "unit_turret",
-         "unit_heavy",
+         "unit_sldf_turret",
+         "unit_sldf_heavy",
 		 "unit_sldf"        
       ],
       "tagSetSourceFile": ""

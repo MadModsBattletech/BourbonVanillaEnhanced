@@ -1,7 +1,7 @@
 {
     "Description" : {
         "Id" : "event_co_mechHunt_D8",
-        "Name" : "a Rare Opportunity",
+        "Name" : "A Rare Opportunity",
         "Details" : "The door to your quarters isn't even fully open, as Yang starts talking in excitement.\r\n\r\n\"Commander, you might wanna hear this! There is the strong possibility that a well-known Defector is hiding here in {TGT_SYSTEM.Name}.\"\r\n\r\nAfter catching his breath he adds what explains his enthusiasm. \"That dissident is said to pilot an old SLDF Mech, if the rumors are true and we manage to find him that's a unique chance of getting our hands on some really rare SLDF salvage!\"\r\n\r\n\"Also, various factions probably have a price on his head, our reputation won't suffer either\" he adds with a happy face. \"What do you say, Boss? Will you get me some new toys to play with?\"",
         "Icon" : "uixTxrSpot_MechBay.png"
     },

@@ -3,7 +3,7 @@
         "Id" : "forcedevent_ve_exploring0",
         "Name" : "Exploring Asteroid Field",
         "Details" : "After what felt like some sudden brakes and turns Sumire catches you with her eyes gleaming. \"I just maneuvered through an asteroid fields when sensors catched something on one of the bigger ones. Looks like there are some kinds of man-made structures on the surface of the asteroid but i'd really like to have a closer look... What do you think?\"",
-        "Icon" : "uixTxrSpot_ArgoParked.png"
+        "Icon" : "uixTxrSpot_UnidentifiedObject.png"
     },
     "Scope" : "Company",
     "Weight" : 100,

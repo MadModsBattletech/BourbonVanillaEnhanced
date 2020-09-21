@@ -2,19 +2,19 @@
     "Name": "HeavyMetalEnhanced",
     "Enabled": true,
     
-    "Version": "1.8.1",
+    "Version": "1.9.1",
     "Description": "Enhancements and additions for BTG Heavy Metal Expansion.",
     "Author": "Mad",
     
     "Manifest": [
-        { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
-        { "Type": "MechDef", "Path": "MechDefs\\" },
-        { "Type": "WeaponDef", "Path": "WeaponDefs\\" },
-        { "Type": "UpgradeDef", "Path": "UpgradeDefs\\" },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+        { "Type": "ChassisDef", "Path": "ChassisDefs/" },
+        { "Type": "MechDef", "Path": "MechDefs/" },
+        { "Type": "WeaponDef", "Path": "WeaponDefs/" },
+        { "Type": "UpgradeDef", "Path": "UpgradeDefs/" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",
-            "Path": "StarSystemDefs"
+            "Path": "StarSystemDefs/"
         }
     ]
 }

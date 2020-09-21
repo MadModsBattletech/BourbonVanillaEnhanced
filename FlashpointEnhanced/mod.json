@@ -7,13 +7,13 @@
     "Author": "Mad",
 
     "Manifest": [
-        { "Type": "ContractOverride", "Path": "ContractOverrides\\" },
-        { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
-        { "Type": "MechDef", "Path": "MechDefs\\" },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+        { "Type": "ContractOverride", "Path": "ContractOverrides/" },
+        { "Type": "ChassisDef", "Path": "ChassisDefs/" },
+        { "Type": "MechDef", "Path": "MechDefs/" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",
-            "Path": "StarSystemDefs"
+            "Path": "StarSystemDefs/"
         }
     ]
 }

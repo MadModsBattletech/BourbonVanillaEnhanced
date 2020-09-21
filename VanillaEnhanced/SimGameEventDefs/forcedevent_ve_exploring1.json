@@ -3,7 +3,7 @@
         "Id" : "forcedevent_ve_exploring1",
         "Name" : "Exploring Asteroid Field",
         "Details" : "Early in the morning Sumire hammers at your quarters doors excitedly. \"Commander, i found something amazing in the the sensor scans I made yesterday! The research outpost seemed to have a Mechbay and it's within reasonable paremeters that I could recover some valuable stuff that might still be in there!\"\r\n\r\n\"I'd only need the Leopard, a few days of time and some engineers to help me get through to the Bay!\" She adds while standing before you, already in her flight uniform, and eagerly awaiting your decision.",
-        "Icon" : "uixTxrSpot_ArgoParked.png"
+        "Icon" : "uixTxrSpot_UnidentifiedObject.png"
     },
     "Scope" : "Company",
     "Weight" : 10,

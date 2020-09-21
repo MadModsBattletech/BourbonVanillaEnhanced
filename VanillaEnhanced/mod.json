@@ -9,16 +9,15 @@
 	"DependsOn": [ "StreakMissileLaunchers" ],
     
     "Manifest": [
-        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" },
-        { "Type": "ContractOverride", "Path": "ContractOverrides\\" },
-        { "Type": "WeaponDef", "Path": "WeaponDefs\\" },
-        { "Type": "ChassisDef", "Path": "ChassisDefs\\" },
-        { "Type": "MechDef", "Path": "MechDefs\\" },
-        { "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs\\" },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs/" },
+        { "Type": "WeaponDef", "Path": "WeaponDefs/" },
+        { "Type": "ChassisDef", "Path": "ChassisDefs/" },
+        { "Type": "MechDef", "Path": "MechDefs/" },
+        { "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs/" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",
-            "Path": "StarSystemDefs"
+            "Path": "StarSystemDefs/"
         }
     ]
 }

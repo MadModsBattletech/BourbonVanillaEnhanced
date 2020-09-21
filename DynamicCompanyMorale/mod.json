@@ -2,7 +2,7 @@
 	"Name": "DynamicCompanyMorale",
 	"Enabled": true,
    
-    "Version": "1.9.1-002R",
+    "Version": "1.9.1-003R",
 	"Description": "Company morale system is made more interesting by introducing temporary morale events and meaningful financial decisions at the start of each quarter.",
 	"Author": "Mad",
 
@@ -19,6 +19,6 @@
     },
 
 	"Manifest": [
-        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs\\" }
+        { "Type": "SimGameEventDef", "Path": "SimGameEventDefs/" }
     ]
 }

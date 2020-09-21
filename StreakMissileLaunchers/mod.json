@@ -2,27 +2,27 @@
     "Name": "StreakMissileLaunchers",
     "Enabled": true,
 
-    "Version": "1.9.1-006R",
+    "Version": "1.9.1-007R",
     "Description": "Adds short range Streak Missile Launchers to Battletech. Includes Streak SRM-2, Streak SRM-4 and Streak SRM-6 launchers. Includes VFX for targeting lasers.",
     "Author": "Mad",
 	
 	"DLL": "StreakMissileLaunchers.dll",
 	
     "Manifest": [
-        { "Type": "WeaponDef", "Path": "WeaponDefs\\" },
-		{ "Type": "AmmunitionDef", "Path": "AmmunitionDefs\\" },
-		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs\\" },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs\\" },
+        { "Type": "WeaponDef", "Path": "WeaponDefs/" },
+		{ "Type": "AmmunitionDef", "Path": "AmmunitionDefs/" },
+		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs/" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",
-            "Path": "StarSystemDefs"
+            "Path": "StarSystemDefs/"
         }
     ],
 
     "DataAddendumEntries": [
         {
             "name": "BattleTech.AmmoCategoryEnumeration",
-            "path": "AmmoCategories\\AmmoCategories.json"
+            "path": "AmmoCategories/AmmoCategories.json"
         }
     ]
 }

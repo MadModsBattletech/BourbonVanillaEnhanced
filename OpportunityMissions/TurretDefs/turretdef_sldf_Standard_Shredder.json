@@ -12,8 +12,8 @@
    "ChassisID" : "turretchassisdef_Standard_shredder",
    "TurretTags": {
       "items": [
-         "unit_turret",
-         "unit_medium",
+         "unit_sldf_turret",
+         "unit_sldf_medium",
 		 "unit_sldf"        
       ],
       "tagSetSourceFile": ""
