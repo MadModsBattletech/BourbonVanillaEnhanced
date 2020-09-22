@@ -46,6 +46,8 @@ In addition to the above there are many small things in place which will most li
 * Some more opportunities to get your hands on SLDF Mechs
 * The intros are skipped (Thx to mpstark)
 * DFA's remove entrenched
+* Camera behaviour sanitized
+* Custom loading screen backgrounds
 * And many more small fixes and additions
 	
 For a more detailed look at the various gameplay changes/fixes please have a look at the corresponding readmes of the included mods.  
@@ -95,7 +97,9 @@ You can have more mods on top of this as to your liking, but please keep in mind
 
 ### Mod READMEs
 [Buff Master Tactician](./BuffMasterTactician/README.md)  
+[Camera Unchained](./CameraUnchained/README.md)  
 [Commander Portrait Loader](./CommanderPortraitLoader/README.md)  
+[Custom Backdrops](./CustomBackdrops/README.md)  
 [Demanding Jumps](./DemandingJumps/README.md)  
 [Dont Shoot The Dead](./DontShootTheDead/README.md)  
 [Drop Costs](./DropCosts/README.md)  
@@ -109,6 +113,7 @@ HeavyMetalEnhanced
 [Mad Labs](./MadLabs/README.md)  
 [Melee Mover](./MeleeMover/README.md)  
 [Mighty Charging Juggernaut](./MightyChargingJuggernaut/README.md)  
+[Opportunity Missions](./OpportunityMissions/README.md)  
 [Random Campaign Start](./RandomCampaignStart/README.md)  
 [Simple  Ejection System](./SimpleEjectionSystem/README.md)  
 [Skip Intro](./SkipIntro/README.md)  
@@ -121,7 +126,9 @@ VanillaEnhanced
 
 ### Mods included
 https://github.com/mad2342/BuffMasterTactician/releases   
+https://github.com/mad2342/CameraUnchained/releases   
 https://github.com/mad2342/CommanderPortraitLoader/releases   
+https://github.com/mad2342/CustomBackdrops/releases   
 https://github.com/mad2342/DemandingJumps/releases  
 https://github.com/mad2342/DontShootTheDead/releases   
 https://github.com/mad2342/DropCosts/releases  
@@ -135,6 +142,7 @@ https://github.com/mad2342/LittleThings/releases
 https://github.com/mad2342/MadLabs/releases  
 https://github.com/mad2342/MeleeMover/releases  
 https://github.com/mad2342/MightyChargingJuggernaut/releases  
+https://github.com/mad2342/OpportunityMissions/releases  
 https://github.com/mad2342/RandomCampaignStart/releases  
 https://github.com/mad2342/SimpleEjectionSystem/releases  
 https://github.com/mad2342/SkipIntro/releases  

@@ -1,6 +1,9 @@
 # ModTek
 .modtek/*
 
+# MadLabs
+MadLabs/MechDefs/
+
 # Logs
 *.log
 

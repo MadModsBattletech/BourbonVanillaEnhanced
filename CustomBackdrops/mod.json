@@ -3,7 +3,7 @@
     "Enabled": true,
 
     "Version": "1.9.1-001R",
-    "Description": "Replace the loading screen backgrounds with custom wallpapers.",
+    "Description": "Replace the mission loading screen backgrounds with custom wallpapers.",
     "Author": "Mad",
 	
 	"DLL": "CustomBackdrops.dll"

@@ -2,7 +2,7 @@
     "Name": "SimpleEjectionSystem",
     "Enabled": true,
 
-    "Version": "1.9.0-001R",
+    "Version": "1.9.1-001R",
     "Description": "Introduces stress levels and ejection rolls for pilots.",
     "Author": "Mad",
 
