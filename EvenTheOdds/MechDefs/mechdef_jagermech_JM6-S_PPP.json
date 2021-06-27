@@ -114,7 +114,7 @@
   "inventory": [
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -125,7 +125,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -136,7 +136,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -147,7 +147,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -180,7 +180,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -191,7 +191,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,

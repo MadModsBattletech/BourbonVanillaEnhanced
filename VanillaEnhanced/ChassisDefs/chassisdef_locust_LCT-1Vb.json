@@ -201,7 +201,9 @@
     ],
     "VariantName": "LCT-1VB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",

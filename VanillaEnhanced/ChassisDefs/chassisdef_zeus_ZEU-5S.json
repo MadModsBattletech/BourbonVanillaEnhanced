@@ -202,7 +202,9 @@
     ],
     "VariantName": "ZEU-5S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Ranged Assault",

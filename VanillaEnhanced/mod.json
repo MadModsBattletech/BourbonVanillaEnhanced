@@ -2,7 +2,7 @@
     "Name": "VanillaEnhanced",
     "Enabled": true,
     
-    "Version": "1.8.1",
+    "Version": "1.9.1",
     "Description": "Enhancements and additions for BTG Core.",
     "Author": "Mad",
 	
@@ -13,7 +13,10 @@
         { "Type": "WeaponDef", "Path": "WeaponDefs/" },
         { "Type": "ChassisDef", "Path": "ChassisDefs/" },
         { "Type": "MechDef", "Path": "MechDefs/" },
+		{ "Type": "Sprite", "Path": "Sprites/" },
+		{ "Type": "MovementCapabilitiesDef", "Path": "MovementCapabilitiesDefs/" },
         { "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDefs/" },
+		{ "Type": "UpgradeDef", "Path": "UpgradeDefs/" },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",

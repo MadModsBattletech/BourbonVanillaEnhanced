@@ -124,7 +124,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -135,7 +135,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -146,7 +146,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Magna",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -157,7 +157,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Magna",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -168,7 +168,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Magna",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
@@ -267,7 +267,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_3-Majesty_Metals",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 5,
@@ -278,7 +278,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_3-Majesty_Metals",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 6,
@@ -289,7 +289,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_3-Majesty_Metals",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 7,

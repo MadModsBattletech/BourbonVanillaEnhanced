@@ -207,7 +207,9 @@
     ],
     "VariantName": "BSK-MAZ",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_prototype"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler",

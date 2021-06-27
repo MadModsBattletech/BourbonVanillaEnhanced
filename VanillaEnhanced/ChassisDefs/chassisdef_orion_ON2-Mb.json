@@ -198,7 +198,9 @@
     ],
     "VariantName": "ON2-MB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_prototype"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & General Assault",

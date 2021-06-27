@@ -293,7 +293,8 @@
             "unit_role_flanker",
             "unit_range_medium",
             "unit_armor_high",
-            "BLACKLISTED"
+            "BLACKLISTED",
+			"unit_prototype"
         ],
         "tagSetSourceFile": ""
     }

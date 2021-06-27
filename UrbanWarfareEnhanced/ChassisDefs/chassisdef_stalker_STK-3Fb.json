@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
     "PrefabBase": "stalker",
     "Tonnage": 85,
-    "InitialTonnage": 21.5,
+    "InitialTonnage": 24.5,
     "weightClass": "ASSAULT",
     "BattleValue": 8821000,
     "Heatsinks": 30,
@@ -210,8 +210,8 @@
     ],
     "FixedEquipment" : [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_Sensor_Prototype_EWE",
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_Sensor_Guardian_ECM",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -224,7 +224,10 @@
     ],
     "VariantName": "STK-3FB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf",
+			"chassis_electronicWarfare"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Ranged Assault & Electronic Warfare",

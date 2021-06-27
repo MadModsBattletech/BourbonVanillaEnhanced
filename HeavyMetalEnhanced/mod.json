@@ -10,6 +10,7 @@
         { "Type": "ChassisDef", "Path": "ChassisDefs/" },
         { "Type": "MechDef", "Path": "MechDefs/" },
         { "Type": "WeaponDef", "Path": "WeaponDefs/" },
+		{ "Type": "Sprite", "Path": "Sprites/" },
         { "Type": "UpgradeDef", "Path": "UpgradeDefs/" },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {

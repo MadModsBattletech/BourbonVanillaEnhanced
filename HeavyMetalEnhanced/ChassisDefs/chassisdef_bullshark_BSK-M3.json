@@ -215,7 +215,9 @@
     ],
     "VariantName": "BSK-M3",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_prototype"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler",

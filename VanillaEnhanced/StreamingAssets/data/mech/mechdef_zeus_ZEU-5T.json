@@ -1,0 +1,20 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_release",
+			"unit_range_long",
+			"unit_indirectFire",
+			"NotLiao",
+			"Steiner",
+			"NotMagistracyOfCanopus",
+			"NotTaurianConcordat",
+            "BLACKLISTED",
+			"unit_sldf"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

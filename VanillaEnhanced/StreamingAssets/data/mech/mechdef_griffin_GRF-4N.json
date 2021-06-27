@@ -1,4 +1,26 @@
 {
+    "MechTags": {
+        "items": [
+            "unit_indirectFire",
+            "unit_jumpOK",
+            "unit_mech",
+            "unit_medium",
+            "unit_ready",
+            "unit_lance_support",
+            "unit_lance_vanguard",
+            "unit_role_sniper",
+			"Davion",
+			"Kurita",
+			"NotLiao",
+			"Marik",
+			"Steiner",
+			"MagistracyOfCanopus",
+			"TaurianConcordat",
+			"BLACKLISTED",
+			"unit_sldf"
+        ],
+        "tagSetSourceFile": ""
+    },
     "Description": {
         "Purchasable": true
     },

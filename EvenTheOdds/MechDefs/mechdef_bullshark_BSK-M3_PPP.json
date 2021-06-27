@@ -30,7 +30,9 @@
   },
   "simGameMechPartCost": 3528000,
   "RequiredToSpawnCompanyTags": {
-    "items": [],
+    "items": [
+      "flashpoint_HM5_hourglass_complete"
+    ],
     "tagSetSourceFile": ""
   },
   "MinAppearanceDate": null,
@@ -211,7 +213,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -222,7 +224,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -233,7 +235,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -244,7 +246,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,

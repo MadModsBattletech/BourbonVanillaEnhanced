@@ -1,0 +1,11 @@
+itemCollection_table_starleagueExpeditions_D5,,,
+mechdef_hunchback_HBK-2,Mech,1,1
+mechdef_wolverine_WVR-7H,Mech,1,1
+mechdef_kintaro_KTO-19b,Mech,1,1
+mechdef_thunderbolt_TDR-5Sb,Mech,1,1
+mechdef_catapult_CPLT-C1b,Mech,1,1
+mechdef_hunchback_HBK-2,MechPart,3,2
+mechdef_wolverine_WVR-7H,MechPart,2,3
+mechdef_kintaro_KTO-19b,MechPart,2,5
+mechdef_thunderbolt_TDR-5Sb,MechPart,2,5
+mechdef_catapult_CPLT-C1b,MechPart,2,8

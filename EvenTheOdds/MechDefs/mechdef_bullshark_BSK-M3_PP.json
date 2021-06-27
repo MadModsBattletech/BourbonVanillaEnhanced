@@ -30,7 +30,9 @@
   },
   "simGameMechPartCost": 3064000,
   "RequiredToSpawnCompanyTags": {
-    "items": [],
+    "items": [
+      "flashpoint_HM5_hourglass_complete"  
+    ],
     "tagSetSourceFile": ""
   },
   "MinAppearanceDate": null,

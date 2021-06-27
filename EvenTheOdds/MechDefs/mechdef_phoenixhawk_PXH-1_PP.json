@@ -198,7 +198,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_2-LexaTech",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
@@ -220,7 +220,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_2-LexaTech",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,

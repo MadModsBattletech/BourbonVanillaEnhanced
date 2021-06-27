@@ -33,12 +33,12 @@
     "Icon": "uixTxrIcon_hatchetman"
   },
   "simGameMechPartCost": 770000,
-	"RequiredToSpawnCompanyTags": {
-	    "items": [
-		    "flashpoint_longRoad_complete"
-		]
-	},
-  "MinAppearanceDate" : "3025-06-28T00:00:00Z",
+  "RequiredToSpawnCompanyTags": {
+    "items": [
+	  "flashpoint_longRoad_complete"
+    ]
+  },
+  "MinAppearanceDate": "3025-06-28T00:00:00Z",
   "Version": 1,
   "Locations": [
     {
@@ -128,7 +128,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Magna",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,

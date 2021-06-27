@@ -1,0 +1,61 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Clear Sight Inc.",
+        "Model" : "",
+        "UIName" : "Beagle Probe",
+        "Id" : "Gear_Sensor_Beagle_ActiveProbe",
+        "Name" : "Beagle Active Probe",
+        "Details" : "Considered LosTech, the Beagle Active Probe (BAP) is a suite of enhancement technology that, when attached to general electronic sensors, enables the equipped unit to detect and classify other battlefield units whether they are camouflaged or even shut down.",
+        "Icon" : "UixSvgIcon_specialEquip_Sensors"
+    },
+    "BonusValueA" : "+ Area Sensor Lock",
+    "BonusValueB" : null,
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "Prototype_ElectronicWarfare",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [		
+		{
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "effectTargetType" : "EnemiesWithinRange",
+				"alsoTargetsCreator" : true,
+                "forceVisRebuild" : true,
+            },
+			"effectType" : "ActiveAbility",
+			"Description" :
+			{
+				"Id" : "ActiveProbe_Ping",
+				"Name" : "ACTIVE PROBE PING",
+				"Details" : "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+				"Icon" : "uixSvgIcon_action_sensorlock"
+			},
+			"activeAbilityEffectData" : 
+			{
+				"abilityName" : "AbilityDef_ActiveProbe_Ping",
+			},
+		},		
+    ],
+    "RequiredToSpawnCompanyTags" : {
+        "items" : [
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

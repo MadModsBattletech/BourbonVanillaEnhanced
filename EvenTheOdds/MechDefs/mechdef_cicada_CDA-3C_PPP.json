@@ -137,7 +137,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPC_3-Tiegart",
+      "ComponentDefID": "Weapon_PPC_PPC_2-Ceres_Arms",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,

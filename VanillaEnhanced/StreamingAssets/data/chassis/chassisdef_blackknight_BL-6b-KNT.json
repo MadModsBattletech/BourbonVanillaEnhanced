@@ -3,5 +3,10 @@
         "Purchasable": true
     },
     "InitialTonnage": 26,
-    "Stability": 175
+    "Stability": 175,
+    "ChassisTags": {
+        "items": [
+			"chassis_sldf"
+		]
+    }
 }

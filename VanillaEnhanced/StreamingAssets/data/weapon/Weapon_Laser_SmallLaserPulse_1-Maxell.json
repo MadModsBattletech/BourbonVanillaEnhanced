@@ -1,7 +1,9 @@
 {
     "HeatGenerated" : 10,
+	"Damage" : 38,
     "Description" : {
         "Cost" : 240000
     },
+    "BonusValueA" : "+ 3 Dmg.",
     "BonusValueB" : "- 2 Heat"
 }

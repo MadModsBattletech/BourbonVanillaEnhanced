@@ -21,7 +21,9 @@
         "FocusOnPoweringUp": true,
         "FocusOnMovement": true,
         "FocusOnSensorLock": true,
-        "FocusOnMeleeTarget": true,
-        "FocusOnRangedTarget": true
+        "FocusOnMelee": true,
+
+        "FocusOnTargetedFriendly": true,
+        "FocusOnTargetedEnemy": true
     }
 }

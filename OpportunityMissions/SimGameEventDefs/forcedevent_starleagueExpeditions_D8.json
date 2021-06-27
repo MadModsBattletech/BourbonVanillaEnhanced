@@ -1,0 +1,161 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_starleagueExpeditions_D8",
+        "Name" : "Star League Expeditions",
+        "Details" : "[forcedevent_starleagueExpeditions_D8] Managed to locate the source of the sensor readings that we are able to decode since the recalibration of the Argo's scanners. Shall we investigate?",
+        "Icon" : "uixTxrSpot_SumireStarMap.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 10,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Not today.",
+                "Details" : "Non-participation Option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Nothing happens",
+                        "Details" : "Later",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+					
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Prepare a Recon Drop.",
+                "Details" : "[\u00A2220,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 220000,
+                            "valueConstant" : "220000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Start a self-employed contract",
+                        "Details" : "After some consideration, you decide to not let this opportunity pass.\r\n\r\n\"Ok, we're doing this properly this time. Sumire, gather all data we need for a deployment and talk to Yang to prepare everything for a medium recon lance drop. I am not willing to risk more than that. If we face overwhelming odds we can still withdraw and go our way.\"\r\n\r\n\r\nA few hours later Sumire returns to the bridge. \"Commander, while preparing the mission briefing sensors registered additional activity in the perimeter. It seems we're not the only ones investigating the facility, let's better be quick.\"\r\n\r\n\"I already added the details to the command center, we can drop anytime\", she adds before leaving to her post.\r\n\r\n",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "starsystem_opportunitymission_active"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-220000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+							"Actions" : [
+								{
+									"Type" : "System_AddContract",
+									"value" : "CaptureBase_StarLeagueExpeditions_D8",
+									"valueConstant" : "Star League Expeditions",
+									"additionalValues" : [
+										"Unknown",
+										"SelfEmployed_Sumire"
+									]
+								},
+								{
+									"Type" : "System_ForceDropshipRoom",
+									"value" : "Contract",
+									"valueConstant" : null,
+									"additionalValues" : []
+								}
+							],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE"
+}

@@ -1,4 +1,6 @@
 {
-    "ShotsWhenFired" : 7,
-    "BonusValueA" : "+ 2 Shots"
+    "ShotsWhenFired" : 9,
+    "BonusValueA" : "+ 4 Shots",
+	"BonusValueB" : "",
+	"Tonnage" : 0.5
 }

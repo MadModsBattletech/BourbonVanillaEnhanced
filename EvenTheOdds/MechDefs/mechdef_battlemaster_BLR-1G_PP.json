@@ -326,7 +326,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -337,7 +337,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,

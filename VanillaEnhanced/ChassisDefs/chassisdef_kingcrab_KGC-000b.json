@@ -226,7 +226,9 @@
     ],
     "VariantName": "KGC-000B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",

@@ -35,10 +35,11 @@
   },
   "simGameMechPartCost": 520000,
   "RequiredToSpawnCompanyTags": {
-    "items": [],
-    "tagSetSourceFile": ""
+    "items": [
+	  "flashpoint_longRoad_complete"
+    ]
   },
-  "MinAppearanceDate": null,
+  "MinAppearanceDate": "3025-06-28T00:00:00Z",
   "Version": 1,
   "Locations": [
     {
@@ -161,7 +162,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -172,7 +173,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -183,7 +184,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -194,7 +195,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_1-Brigadier",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,

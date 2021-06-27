@@ -160,7 +160,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPC_3-Tiegart",
+      "ComponentDefID": "Weapon_PPC_PPC_2-Ceres_Arms",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -171,7 +171,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -215,7 +215,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -226,7 +226,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
@@ -237,7 +237,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
@@ -248,7 +248,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Ceres_Arms",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 3,

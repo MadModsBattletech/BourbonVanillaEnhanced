@@ -186,7 +186,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "7617cb28-c434-4a14-8698-a93ccfc3d750"
             },
-            "title" : "Destroy Competitors",
+            "title" : "Destroy Scavengers",
             "description" : "The primary objective to destroy the force that tries to remove the player from the captured base.",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -570,7 +570,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Watch out for the competition. The enemy's forces are on their way.",
+                    "words" : "Watch out for competition. Their forces are on the way.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -988,9 +988,14 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_career_merchantguard",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_phoenixhawk_PXH-1b",
+                        "unitDefId" : "Tagged",
                         "unitTagSet" : {
-                            "items" : [],
+                            "items" : [
+                                "unit_mech",
+                                "unit_medium",
+                                "unit_sldf",
+                                "ignoreTag-BLACKLISTED"
+                            ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -998,10 +1003,12 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : [
+                                "tagMech-WHITELIST_PARTS"
+                            ],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_sldf_mech",
+                        "pilotDefId" : "pilot_sldf_scavenger",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

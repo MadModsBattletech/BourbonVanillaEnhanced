@@ -207,7 +207,9 @@
     ],
     "VariantName": "CTF-0X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_electronicWarfare"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Electronic Warfare",

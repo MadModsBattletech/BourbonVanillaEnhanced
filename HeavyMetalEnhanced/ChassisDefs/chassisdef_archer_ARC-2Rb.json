@@ -200,7 +200,9 @@
     ],
     "VariantName": "ARC-2RB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "YangsThoughts": "Equipped with Star League technology, the 2Rb variant of the Archer was built for SLDF Royal units starting in 2752. Built on an Endo Steel internal structure, this variant dropped one of the medium lasers and one ton of ammunition to finally improve its heat management utilizing double strength heat sinks.",

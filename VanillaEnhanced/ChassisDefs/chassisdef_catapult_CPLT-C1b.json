@@ -207,7 +207,9 @@
     ],
     "VariantName": "CPLT-C1B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Fire Support",

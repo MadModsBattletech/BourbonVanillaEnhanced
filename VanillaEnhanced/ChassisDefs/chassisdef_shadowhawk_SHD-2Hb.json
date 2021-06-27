@@ -210,7 +210,9 @@
     ],
     "VariantName": "SHD-2HB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & General Assault",

@@ -9,6 +9,7 @@
     "Manifest": [
         { "Type": "ChassisDef", "Path": "ChassisDefs/" },
         { "Type": "MechDef", "Path": "MechDefs/" },
+		{ "Type": "UpgradeDef", "Path": "UpgradeDefs/" },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs/" },
         {
             "Type": "AdvancedJSONMerge",

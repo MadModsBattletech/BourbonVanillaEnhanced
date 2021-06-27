@@ -1,3 +1,8 @@
 {
-    "Stability": 180
+    "Stability": 180,
+    "ChassisTags": {
+        "items": [
+			"chassis_sldf"
+		]
+    }
 }

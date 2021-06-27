@@ -198,7 +198,9 @@
     ],
     "VariantName": "KTO-19B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Cavalry",

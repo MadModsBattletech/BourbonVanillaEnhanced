@@ -1,4 +1,6 @@
 itemCollection_HME_Custom_Mechs,,,
+mechdef_annihilator_ANH-1X,Mech,1,1
 mechdef_annihilator_ANH-2A,Mech,1,1
+mechdef_rifleman_RFL-3N-2,Mech,1,1
 mechdef_archer_ARC-2Rb,Mech,1,1
-Weapon_Laser_SmallLaserPulse_0-STOCK,Weapon,1,7
+Weapon_Laser_SmallLaserPulse_0-STOCK,Weapon,1,6

@@ -1,17 +1,17 @@
 {
     "Description": {
         "Id": "pilot_sldf_mech",
-        "Name": "Elite Scavenger",
-        "FirstName": "Elite Scavenger",
+        "Name": "Mech AI",
+        "FirstName": "AI",
         "LastName": "NONE",
-        "Callsign": "Elite Scavenger",
+        "Callsign": "The Broken",
         "Gender": "Female",
         "Faction": "Davion",
         "Age": 30,
         "Details": "NONE",
         "Icon": "Wildfire"
     },
-    "BaseGunnery": "10",
+    "BaseGunnery": "11",
     "BonusGunnery": 0,
     "BasePiloting": "10",
     "BonusPiloting": 0,

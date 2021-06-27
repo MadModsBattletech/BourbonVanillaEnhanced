@@ -1,5 +1,7 @@
 {
+    "Damage" : 36,
     "Description" : {
         "Cost" : 320000
-    }
+    },
+	"BonusValueA" : "+ 6 Dmg."
 }

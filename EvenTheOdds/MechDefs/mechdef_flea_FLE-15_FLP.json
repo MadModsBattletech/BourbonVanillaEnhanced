@@ -115,7 +115,7 @@
   "inventory": [
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -126,7 +126,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -137,7 +137,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -148,7 +148,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Flamer_Flamer_3-Zippo",
+      "ComponentDefID": "Weapon_Flamer_Flamer_2-Olympus",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,

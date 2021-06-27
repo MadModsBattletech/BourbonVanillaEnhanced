@@ -50,7 +50,7 @@
     "DFAInstability" : 45,
     "ChassisTags" : {
         "items" : [
-            
+            "chassis_electronicWarfare"
         ],
         "tagSetSourceFile" : ""
     },

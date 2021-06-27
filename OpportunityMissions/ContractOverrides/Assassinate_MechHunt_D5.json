@@ -1061,7 +1061,7 @@
                             ],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_sldf_mech",
+                        "pilotDefId" : "pilot_sldf_scavenger",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

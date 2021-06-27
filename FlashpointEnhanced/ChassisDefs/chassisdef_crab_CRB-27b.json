@@ -216,7 +216,9 @@
     ],
     "VariantName": "CRB-27B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",

@@ -33,12 +33,12 @@
     "Icon": "uixTxrIcon_hatchetman"
   },
   "simGameMechPartCost": 482000,
-	"RequiredToSpawnCompanyTags": {
-	    "items": [
-		    "flashpoint_longRoad_complete"
-		]
-	},
-  "MinAppearanceDate" : "3025-06-28T00:00:00Z",
+  "RequiredToSpawnCompanyTags": {
+    "items": [
+	  "flashpoint_longRoad_complete"
+    ]
+  },
+  "MinAppearanceDate": "3025-06-28T00:00:00Z",
   "Version": 1,
   "Locations": [
     {

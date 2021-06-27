@@ -8,7 +8,7 @@
         "UIName": "Annihilator",
         "Id": "chassisdef_annihilator_ANH-2A",
         "Name": "Annihilator",
-        "Details": "The original design of the Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The ANH-2A is armed with four LB-X Autocannon/10s as its primary weapons alongside four Medium Pulse Lasers for closer ranges, which will decimate any target in no time.",
+        "Details": "This experimental design of the Annihilator is equipped with an arsenal that is built to instill fear in an enemy as much as damage them. The ANH-2A is armed with four LB-X Autocannon/10s as its primary weapons alongside four Medium Pulse Lasers for closer ranges, which will decimate any target in no time.",
         "Icon": "uixTxrIcon_annihilator"
     },
     "MovementCapDefID": "movedef_annihilator_ANH-1A",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_annihilatorBase-001",
     "PrefabBase": "annihilator",
     "Tonnage": 100,
-    "InitialTonnage": 16.5,
+    "InitialTonnage": 22.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 0,
     "MaxJumpjets": 2,
@@ -217,10 +217,12 @@
     ],
     "VariantName": "ANH-2A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_prototype"
+		],
         "tagSetSourceFile": ""
     },
-    "YangsThoughts": "The original design of the Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The ANH-2A is armed with four LB-X Autocannon/10s as its primary weapons alongside four Medium Pulse Lasers for closer ranges, which will decimate any target in no time.",
+    "YangsThoughts": "This experimental design of the Annihilator is equipped with an arsenal that is built to instill fear in an enemy as much as damage them. The ANH-2A is armed with four LB-X Autocannon/10s as its primary weapons alongside four Medium Pulse Lasers for closer ranges, which will decimate any target in no time.",
     "StockRole": "Juggernaut",
     "FixedEquipment" : [
         {

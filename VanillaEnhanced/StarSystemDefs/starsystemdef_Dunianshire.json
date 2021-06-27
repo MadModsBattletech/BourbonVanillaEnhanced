@@ -4,7 +4,7 @@
         {
 			"JSONPath": "SystemShopItems",
 			"Action": "ArrayAdd",
-			"Value": "itemCollection_VE_Custom"
+			"Value": "itemCollection_VE_CustomAdvanced"
 		}
     ]
 }

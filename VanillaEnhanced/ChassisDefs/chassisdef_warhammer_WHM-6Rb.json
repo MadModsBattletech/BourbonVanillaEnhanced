@@ -215,7 +215,9 @@
     ],
     "VariantName": "WHM-6RB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

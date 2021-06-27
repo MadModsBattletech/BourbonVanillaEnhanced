@@ -16,7 +16,8 @@
         "ExclusionTags" : {
             "items" : [
                 "event_co_unexpectedSignals",
-                "starsystem_opportunitymission_active"
+                "starsystem_opportunitymission_active",
+                "company_starleagueExpeditions_ON"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },

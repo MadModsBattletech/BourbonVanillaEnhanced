@@ -162,7 +162,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -173,7 +173,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_AC2_3-Kali_Yama",
+      "ComponentDefID": "Weapon_Autocannon_AC2_3-Imperator",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
