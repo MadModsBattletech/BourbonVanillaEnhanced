@@ -1,0 +1,24 @@
+{
+  "logLevel": "info",
+  "features": {
+    "HarmonyPatches": true,
+    "LocalizationPatches": false,
+    "MechlabFix": true,
+    "LoadFixes": false,
+    "NoSalvageSoftlock": false,
+    "DataLoaderGetEntryCheck": true,
+    "ShopTabLagFix": true,
+    "ContractLagFix": false,
+    "EnableLoggingDuringLoads": true,
+    "ExtraLogging": true,
+    "ShaderDependencyOverride": false,
+    "DisableDeployAudio": false,
+    "RemovedFlashpointFix": false,
+    "DisableSimAnimations": false,
+    "RemovedContractsFix": false,
+    "VersionManifestPatches": true,
+    "MemoryLeakFix": true,
+    "EnableConsole": false
+  },
+  "WantContractsLagFixVerify": false
+}
