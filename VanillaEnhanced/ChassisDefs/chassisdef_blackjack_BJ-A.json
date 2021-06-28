@@ -8,7 +8,7 @@
         "UIName": "Blackjack",
         "Id": "chassisdef_blackjack_BJ-A",
         "Name": "Blackjack",
-        "Details": "[chassisdef description details] Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons.",
+        "Details": "The Blackjack BJ-A is armed with a trio of Machine Guns in each arm, supported by a Medium Laser in each side torso and a Large Pulse Laser mounted in the center torso. Mounting a 235 standard engine, it's considerably faster than the BJ-1 even though it only has two jumpjets equipped by default. With a total of 11 installed double heat sinks this design won't ever reach critical heat levels.",
         "Icon": "uixTxrIcon_blackjack"
     },
     "MovementCapDefID": "movedef_blackjack_BJ-A",
@@ -207,9 +207,11 @@
     ],
     "VariantName": "BJ-A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_sldf"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
-    "YangsThoughts": "[chassisdef YangsThoughts] Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons."
+    "YangsThoughts": "The Blackjack BJ-A is armed with a trio of Machine Guns in each arm, supported by a Medium Laser in each side torso and a Large Pulse Laser mounted in the center torso. Mounting a 235 standard engine, it's considerably faster than the BJ-1 even though it only has two jumpjets equipped by default. With a total of 11 installed double heat sinks this design won't ever reach critical heat levels."
 }
